@@ -1195,7 +1195,7 @@
   resolved "https://registry.npmmirror.com/@mr-hope/vuepress-plugin-reading-time/download/@mr-hope/vuepress-plugin-reading-time-1.20.3.tgz#e30e4788174080a23bff241fa54a0f1a2a5c49d7"
   integrity sha1-4w5HiBdAgKI7/yQfpUoPGipcSdc=
 
-"@mr-hope/vuepress-plugin-seo@1.20.3":
+"@mr-hope/vuepress-plugin-seo@1.20.3", "@mr-hope/vuepress-plugin-seo@^1.20.3":
   version "1.20.3"
   resolved "https://registry.npmmirror.com/@mr-hope/vuepress-plugin-seo/download/@mr-hope/vuepress-plugin-seo-1.20.3.tgz#69b5a8cb4b3e5bcc844cdcd5706838ff3926e95e"
   integrity sha1-abWoy0s+W8yETNzVcGg4/zkm6V4=
