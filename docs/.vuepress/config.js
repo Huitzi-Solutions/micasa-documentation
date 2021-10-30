@@ -42,8 +42,7 @@ module.exports = config({
     repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
 
     nav: [
-      { text: "Blog Home", link: "/", icon: "home" },
-      { text: "Project Home", link: "/home/", icon: "home" },
+      { text: "Home", link: "/home/", icon: "home" },
       {
         text: "Guide",
         icon: "creative",
