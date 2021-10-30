@@ -1,8 +1,8 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "Theme Demo",
-  description: "A demo for vuepress-theme-hope",
+  title: "Mi Casa's Salesforce Documentation",
+  description: "",
 
   dest: "./dist",
 
@@ -42,8 +42,7 @@ module.exports = config({
     repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
 
     nav: [
-      { text: "Blog Home", link: "/", icon: "home" },
-      { text: "Project Home", link: "/home/", icon: "home" },
+      { text: "Home", link: "/home/", icon: "home" },
       {
         text: "Guide",
         icon: "creative",
@@ -101,16 +100,6 @@ module.exports = config({
             },
           ],
         },
-      },
-    },
-
-    blog: {
-      intro: "/intro/",
-      sidebarDisplay: "mobile",
-      links: {
-        Zhihu: "https://zhihu.com",
-        Baidu: "https://baidu.com",
-        Github: "https://github.com",
       },
     },
 
