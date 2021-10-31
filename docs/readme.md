@@ -4,8 +4,8 @@ home: true
 icon: home
 title: Mi Casa's Salesforce Documentation
 heroImage: /logo.svg
-heroText: Find tutorials, developer,admin and user guides.
-tagline: Mi Casa's Salesforce Org
+heroText: Salesforce Org Documentation
+tagline: Find tutorials, developer,admin and user guides.
 heroFullScreen: true
 project:
   - type: project
@@ -28,11 +28,7 @@ project:
     desc: Detailed description of the article
     link: https://link.to.your.article
 
-footer: customize your footer text
+footer: Copyright © 2021 Mi Casa Resource Center
 ---
 
-This is a blog home page.
-
-To use this layout, you should set both `blog: true` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://vuepress-theme-hope.github.io/guide/blog/home/)
+This guide is intended to inform Salesforce users, administrators, and developers of the current configuration, features, and automations active in Mi Casa’s Salesforce org. This is meant to be a living document where every change, addition and/or update to the org will be documented.
