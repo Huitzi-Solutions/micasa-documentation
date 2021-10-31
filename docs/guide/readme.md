@@ -3,12 +3,14 @@ icon: creative
 category: Guide
 ---
 
-# Guides
+# Index
 
-- [Page Config](page.md)
+- [1.0 Introduction](page.md)
 
-- [Markdown Enhance](markdown.md)
+- [2.0 MCRC Everyday Processes](markdown.md)
 
-- [Function Disable](disable.md)
+- [3.0 Career Pathway](disable.md)
 
-- [Encryption Demo](encrypt.md)
+- [4.0 Business Pathway](encrypt.md)
+
+- [5.0 Third Party Integrations](encrypt.md)
