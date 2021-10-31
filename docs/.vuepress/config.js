@@ -48,7 +48,7 @@ module.exports = config({
     ],
 
     sidebar: {
-      "/guide/": [
+      "/documentation/": [
         {
           title: "1.0 Introduction",
           prefix: "introduction/",
@@ -216,10 +216,6 @@ module.exports = config({
 
     copyright: {
       status: "global",
-    },
-
-    git: {
-      timezone: "Mountain-Time/Denver",
     },
 
     mdEnhance: {
