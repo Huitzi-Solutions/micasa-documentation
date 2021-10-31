@@ -2,10 +2,10 @@
 blog: false
 home: true
 icon: home
-title: Blog Home
+title: Mi Casa's Salesforce Documentation
 heroImage: /logo.svg
-heroText: the name of your blog
-tagline: You can put your slogan here
+heroText: Find tutorials, developer,admin and user guides.
+tagline: Mi Casa's Salesforce Org
 heroFullScreen: true
 project:
   - type: project

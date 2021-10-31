@@ -1,17 +1,15 @@
 ---
 home: true
+blog: false
 icon: home
-title: Project home
+title: Mi Casa's Salesforce Documentation
 heroImage: /logo.svg
-heroText: Project name
-tagline: You can place the description of the project here.
+heroText: Salesforce Documentation
+tagline: Find tutorials, developer,admin and user guides.
 action:
-  - text: How to Use 💡
+  - text: How to Use this guide
     link: /guide/
     type: primary
-
-  - text: Blog homepage 🏠
-    link: /
 
 features:
   - title: Markdown Enhance 🧰
