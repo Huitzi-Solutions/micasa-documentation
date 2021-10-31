@@ -29,18 +29,14 @@ module.exports = config({
     "/": {
       lang: "en-US",
     },
-    "/zh/": {
-      title: "Theme Demo",
-      description: "vuepress-theme-hope 的 demo",
-    },
   },
 
   themeConfig: {
     logo: "/logo.svg",
     hostname: "https://vuepress-theme-hope-demo.mrhope.site",
 
-    author: "Mr.Hope",
-    repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
+    author: "Huitzi Solutions",
+    repo: "https://github.com/Huitzi-Solutions/micasa-documentation",
 
     nav: [
       { text: "Home", link: "/home/", icon: "home" },
@@ -66,47 +62,14 @@ module.exports = config({
           title: "Guide",
           icon: "creative",
           prefix: "guide/",
-          children: ["", "page", "markdown", "disable", "encrypt"],
+          children: ["", "1.0 Introduction", "2.0 MCRC Everyday Processes", "3.0 Career Pathway", "4.0 Business Pathway", "5.0 Third Party Integration"],
         },
       ],
     },
 
-    locales: {
-      "/zh/": {
-        nav: [
-          { text: "博客主页", link: "/zh/", icon: "home" },
-          { text: "项目主页", link: "/zh/home/", icon: "home" },
-          {
-            text: "如何使用",
-            icon: "creative",
-            link: "/zh/guide/",
-          },
-          {
-            text: "主题文档",
-            icon: "note",
-            link: "https://vuepress-theme-hope.github.io/zh/",
-          },
-        ],
-        sidebar: {
-          "/zh/": [
-            "",
-            "home",
-            "slides",
-            "layout",
-            {
-              title: "如何使用",
-              icon: "creative",
-              prefix: "guide/",
-              children: ["", "page", "markdown", "disable", "encrypt"],
-            },
-          ],
-        },
-      },
-    },
-
     footer: {
       display: true,
-      content: "默认页脚",
+      content: "2021 Mi Casa Resource Center",
     },
 
     comment: {
@@ -119,7 +82,7 @@ module.exports = config({
     },
 
     git: {
-      timezone: "Asia/Shanghai",
+      timezone: "Mountain-Time/Denver",
     },
 
     mdEnhance: {
