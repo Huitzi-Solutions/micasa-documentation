@@ -41,14 +41,9 @@ module.exports = config({
     nav: [
       { text: "Home", link: "/home/", icon: "home" },
       {
-        text: "Guide",
-        icon: "creative",
-        link: "/guide/",
-      },
-      {
-        text: "Docs",
-        link: "https://vuepress-theme-hope.github.io/",
-        icon: "note",
+        text: "Documentation",
+        icon: "doc",
+        link: "/documentation/",
       },
     ],
 
@@ -206,7 +201,7 @@ module.exports = config({
           ],
         },
       ],
-      "/": ["", "guide/", "config/", "basic/", "FAQ/", "demo/"],
+      "/": ["", "home/", "documentation/"],
     },
 
     footer: {
