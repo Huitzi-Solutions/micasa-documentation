@@ -70,4 +70,4 @@ This box also counts the number of characters you use. Keep in mind that some ph
 In the bottom right box, SMS Send Configuration, you can leave the Send From: box on Default (all Staff contacts are set to default to the Program Support/general number). If you want to schedule the message to send at a later point, you can select the date and time.
 When finished entering the message, hit Send.
 
-<img :src="$withBase('/assets/bulkSMS/11.png')" alt="foo">
+<img :src="$withBase('/assets/bulkSMS/11.jpg')" alt="foo">
