@@ -2,7 +2,7 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: page config
+title: ... Career Pathways Appointments
 # Set author
 author: Huitzi Solutions
 # Set writing time
@@ -18,7 +18,7 @@ sticky: true
 # this page will appear in aricle channel in home page
 star: true
 # You can customize the footer
-footer: Footer content for test
+footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
 ## Page information

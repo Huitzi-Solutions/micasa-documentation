@@ -2,23 +2,19 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: page config
+title: ... Career Coaching Appointments
 # Set author
 author: Huitzi Solutions
 # Set writing time
 time: 2020-01-01
 # A page can only have one category
 category: Guide
-# A page can have multiple tags
-tag:
-  - Page config
-  - Guide
 # this page is sticky in article list
 sticky: true
 # this page will appear in aricle channel in home page
 star: true
 # You can customize the footer
-footer: Footer content for test
+footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
 ## Page information

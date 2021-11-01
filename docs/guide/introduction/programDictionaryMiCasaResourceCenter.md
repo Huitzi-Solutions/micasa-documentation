@@ -14,7 +14,7 @@ sticky: true
 # this page will appear in aricle channel in home page
 star: true
 # You can customize the footer
-footer: Footer content for test
+footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
 Here you will find some of the programs and descriptions that Mi Casa Resource Center (MCRC) gives  to the community.

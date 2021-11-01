@@ -2,7 +2,7 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: ...mPowered Financial Coaching Appointments
+title: ... Career Pathways Appointments
 # Set author
 author: Huitzi Solutions
 # Set writing time

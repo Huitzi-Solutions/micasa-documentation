@@ -133,7 +133,7 @@ module.exports = config({
                   title: "3.1.1 How to create...",
                   prefix: "howToCreate/",
                   collapsable: true,
-                  children: ["... Career Pathways Appointments", "... Career Coaching Appointments", "... and update Career Retentions"],
+                  children: ["careerPathwaysAppointments", "careerCoachingAppointments", "andUpdateCareerRetentions"],
                 },
                 {
                   title: "3.1.2 How to enter…",
