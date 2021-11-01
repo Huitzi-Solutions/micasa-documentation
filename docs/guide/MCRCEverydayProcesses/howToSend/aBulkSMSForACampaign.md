@@ -33,7 +33,7 @@ In this section you will find how to send a Bulk SMS from a campaign
 
 ### **Steps:**
 
-1. From your Salesforce homepage, click on the Bulk SMS tab. It may be under the More (<img :src="$withBase('/assets/bulkSMS/1.png')" alt="foo">) dropdown on the right.
+1. From your Salesforce homepage, click on the Bulk SMS tab. It may be under the More <img :src="$withBase('/assets/bulkSMS/1.png')" alt="foo"> dropdown on the right.
 
 2. This will load the Mogli Bulk SMS wizard. From here, you can choose to add Contacts or Leads individually – this could be helpful if you want to text just a couple participants the same thing – or you can add a Campaign.
 
@@ -43,12 +43,12 @@ In this section you will find how to send a Bulk SMS from a campaign
 
 <img :src="$withBase('/assets/bulkSMS/3.png')" alt="foo">
 
-4. Once your Contacts or Leads are loaded, you can either load an SMS Template or type your message in the box. You can also add a merge field from the drop down list – this will fill in a certain field from Salesforce to each participant – for example, if you want to send a personalized greeting to each recipient, you can use the {{Contact.FirstName}}! merge field to auto-fill each recipient’s first name.
+4. Once your Contacts or Leads are loaded, you can either load an SMS Template or type your message in the box. You can also add a merge field from the drop down list – this will fill in a certain field from Salesforce to each participant – for example, if you want to send a personalized greeting to each recipient, you can use the Contact.FirstName! merge field to auto-fill each recipient’s first name.
 This box also counts the number of characters you use. Keep in mind that some phone carriers may split messages into multiple texts after a certain number of characters (usually around 140 characters).
 
 <img :src="$withBase('/assets/bulkSMS/4.png')" alt="foo">
 
-5. The SMS Send Configuration box allows you to choose which phone number (Gateway) to send the message from, as well as schedule the text to be sent later. The Send From number should be the relevant program. If you want to send the text at a later date and/or time, select the specific date <img :src="$withBase('/assets/bulkSMS/5.png')" alt="foo"> and time (<img :src="$withBase('/assets/bulkSMS/6.png')" alt="foo">) from the boxes.
+5. The SMS Send Configuration box allows you to choose which phone number (Gateway) to send the message from, as well as schedule the text to be sent later. The Send From number should be the relevant program. If you want to send the text at a later date and/or time, select the specific date <img :src="$withBase('/assets/bulkSMS/5.png')" alt="foo"> and time <img :src="$withBase('/assets/bulkSMS/6.png')" alt="foo"> from the boxes.
 
 <img :src="$withBase('/assets/bulkSMS/7.png')" alt="foo">
 
