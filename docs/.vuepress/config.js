@@ -43,21 +43,21 @@ module.exports = config({
       {
         text: "Documentation",
         icon: "doc",
-        link: "/documentation/",
+        link: "/guide/",
       },
     ],
 
     sidebar: {
-      "/documentation/": [
+      "/guide/": [
         {
           title: "1.0 Introduction",
           prefix: "introduction/",
           collapsable: true,
-          children: ["1.1 How to use this guide", "1.2 Program Dictionary Mi Casa Resource Center"],
+          children: ["howToUseThisGuide", "programDictionaryMiCasaResourceCenter"],
         },
         {
           title: "2.0 MCRC Everyday Processes",
-          prefix: "Everyday Processes/",
+          prefix: "EverydayProcesses/",
           collapsable: true,
           children: [
             {
@@ -67,21 +67,25 @@ module.exports = config({
               children: [
                 {
                   title: "2.1.1 How to create...",
+                  prefix: "howToCreate/",
                   collapsable: true,
                   children: ["...an Internal Referral", "...an External Referral", "...an Appointment", "...an New Prospect", "...an Enrollment Report", "...a Course", "...a New Contact", "...mPowered Financial Coaching Referrals", "...mPowered Financial Coaching Appointments"],
                 },
                 {
                   title: "2.1.2 How to send…",
+                  prefix: "howToSend/",
                   collapsable: true,
                   children: ["... an Email", "... a Bulk Email", "... a single SMS", "... multiple SMS "],
                 },
                 {
                   title: "2.1.3 How to track...",
+                  prefix: "howToTrack/",
                   collapsable: true,
                   children: ["... technology lending", "... and manage Partner Engagement"],
                 },
                 {
                   title: "2.1.4 Other guides...",
+                  prefix: "otherGuides/",
                   collapsable: true,
                   children: ["How to complete a COVID-19 Assessment", "How to update a contact", "Salesforce Beginner Onboarding", "How to convert a Prospect", "Reports & Dashboards: Basic Guide", "How to print forms in Salesforce", "How to clone an Application or Enrollment Record", "How to enter a Navigation Appointment", "ow the Lead Processes Paths work", "How the Sales Processes Paths work", "How the Support Processes Paths work", "Prospects FAQ"],
                 },
@@ -127,16 +131,19 @@ module.exports = config({
               children: [
                 {
                   title: "3.1.1 How to create...",
+                  prefix: "howToCreate/",
                   collapsable: true,
                   children: ["... Career Pathways Appointments", "... Career Coaching Appointments", "... and update Career Retentions"],
                 },
                 {
                   title: "3.1.2 How to enter…",
+                  prefix: "howToEnter/",
                   collapsable: true,
                   children: ["... Support Services- Career Pathways", "... a Career Coaching Enrollment"],
                 },
                 {
                   title: "3.1.3 Other guides...",
+                  prefix: "otherGuides/",
                   collapsable: true,
                   children: ["How to take attendance for a training course", "How to manage workshop attendance", "How to update a contact and enroll in Career Coaching", "How to view a Career Dashboard"],
                 },
@@ -145,6 +152,7 @@ module.exports = config({
             {
               title: "2.2 Admin Guides",
               icon: "admin",
+              prefix: "AdminGuides/",
               collapsable: false,
               children: [
                 "How to clear search filters with respect to Career Coaching & EV Appointments",
@@ -175,16 +183,19 @@ module.exports = config({
               children: [
                 {
                   title: "3.1.1 How to create...",
+                  prefix: "howToCreate/",
                   collapsable: true,
                   children: ["... Business Consulting Appointment | Form 641", "... a Business Counseling Survey"],
                 },
                 {
                   title: "3.1.2 How to enter…",
+                  prefix: "howToEnter/",
                   collapsable: true,
                   children: ["... Business Appointments and 641s", "... a Business Consulting Appointment", "... Pre, Post & Hope Surveys"],
                 },
                 {
                   title: "3.1.3 Other guides...",
+                  prefix: "otherGuides/",
                   collapsable: true,
                   children: ["How to search for and request a 641 Form", "How to view a Business Dashboard"],
                 },
