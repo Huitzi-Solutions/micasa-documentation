@@ -148,12 +148,12 @@
       "title": "page config",
       "url": "https://vuepress-theme-hope-demo.mrhope.site/guide/page/",
       "id": "https://vuepress-theme-hope-demo.mrhope.site/guide/page/",
-      "content_html": "<h2 id=\"page-information\"> Page information</h2>\n<p>You can set page information in Markdown’s Frontmatter.</p>\n<ul>\n<li>\n<p>The author is set to Ms.Hope.</p>\n</li>\n<li>\n<p>The writing time should be January 1, 2020</p>\n</li>\n<li>\n<p>Category is &quot;Guide&quot;</p>\n</li>\n<li>\n<p>Tags are &quot;Page Config&quot; and &quot;Guide&quot;</p>\n</li>\n</ul>\n<h2 id=\"page-content\"> Page content</h2>\n<p>You are free to write your Markdown here.</p>\n<div><p>Tips</p>\n<ul>\n<li>\n<p>Please use the relative link <code>./</code> for pictures in the Markdown folder.</p>\n</li>\n<li>\n<p>For pictures in <code>.vuepress/public</code> folder, please use absolute link <code>/</code> for reference</p>\n</li>\n</ul>\n</div>\n<p>The theme contains a custom badge:</p>\n<blockquote>\n<p>A dark blue badge text badge at the end of line. <i>Not supported content</i></p>\n</blockquote>\n<h2 id=\"page-structure\"> Page structure</h2>\n<p>This page should contain:</p>\n<ul>\n<li>Back to top button</li>\n<li>Route navigation</li>\n<li>Comments</li>\n<li>Footer</li>\n</ul>\n",
+      "content_html": "<h2 id=\"page-information\"> Page information</h2>\n<p>You can set page information in Markdown’s Frontmatter.</p>\n<ul>\n<li>\n<p>The author is set to Huitzi Solutions.</p>\n</li>\n<li>\n<p>The writing time should be January 1, 2020</p>\n</li>\n<li>\n<p>Category is &quot;Guide&quot;</p>\n</li>\n<li>\n<p>Tags are &quot;Page Config&quot; and &quot;Guide&quot;</p>\n</li>\n</ul>\n<h2 id=\"page-content\"> Page content</h2>\n<p>You are free to write your Markdown here.</p>\n<div><p>Tips</p>\n<ul>\n<li>\n<p>Please use the relative link <code>./</code> for pictures in the Markdown folder.</p>\n</li>\n<li>\n<p>For pictures in <code>.vuepress/public</code> folder, please use absolute link <code>/</code> for reference</p>\n</li>\n</ul>\n</div>\n<p>The theme contains a custom badge:</p>\n<blockquote>\n<p>A dark blue badge text badge at the end of line. <i>Not supported content</i></p>\n</blockquote>\n<h2 id=\"page-structure\"> Page structure</h2>\n<p>This page should contain:</p>\n<ul>\n<li>Back to top button</li>\n<li>Route navigation</li>\n<li>Comments</li>\n<li>Footer</li>\n</ul>\n",
       "date_published": "2020-01-01T00:00:00.000Z",
       "date_modified": "2021-10-10T16:21:48.000Z",
       "authors": [
         {
-          "name": "Ms.Hope"
+          "name": "Huitzi Solutions"
         }
       ],
       "tags": [

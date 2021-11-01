@@ -2,7 +2,7 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: page config
+title: Data Request Form Initial Guide
 # Set author
 author: Huitzi Solutions
 # Set writing time

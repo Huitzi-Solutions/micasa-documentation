@@ -15,7 +15,7 @@
     <name>Mr.Hope</name>
   </contributor>
   <contributor>
-    <name>Ms.Hope</name>
+    <name>Huitzi Solutions</name>
   </contributor>
   <entry>
     <title type="html">Component disabled</title>
@@ -677,7 +677,7 @@ A custom details container
 <p>You can set page information in Markdown’s Frontmatter.</p>
 <ul>
 <li>
-<p>The author is set to Ms.Hope.</p>
+<p>The author is set to Huitzi Solutions.</p>
 </li>
 <li>
 <p>The writing time should be January 1, 2020</p>
@@ -715,13 +715,13 @@ A custom details container
 </ul>
 ]]></content>
     <author>
-      <name>Ms.Hope</name>
+      <name>Huitzi Solutions</name>
     </author>
     <category term="Guide"/>
     <contributor>
-      <name>Ms.Hope</name>
+      <name>Huitzi Solutions</name>
     </contributor>
     <published>2020-01-01T00:00:00.000Z</published>
-    <rights>Copyright by Ms.Hope</rights>
+    <rights>Copyright by Huitzi Solutions</rights>
   </entry>
 </feed>

@@ -52,13 +52,13 @@ module.exports = config({
         {
           title: "1.0 Introduction",
           prefix: "introduction/",
-          collapsable: true,
+          collapsable: false,
           children: ["howToUseThisGuide", "programDictionaryMiCasaResourceCenter"],
         },
         {
           title: "2.0 MCRC Everyday Processes",
-          prefix: "EverydayProcesses/",
-          collapsable: true,
+          prefix: "MCRCEverydayProcesses/",
+          collapsable: false,
           children: [
             {
               title: "2.1 User Guides",
@@ -69,25 +69,25 @@ module.exports = config({
                   title: "2.1.1 How to create...",
                   prefix: "howToCreate/",
                   collapsable: true,
-                  children: ["...an Internal Referral", "...an External Referral", "...an Appointment", "...an New Prospect", "...an Enrollment Report", "...a Course", "...a New Contact", "...mPowered Financial Coaching Referrals", "...mPowered Financial Coaching Appointments"],
+                  children: ["anInternalReferral", "anExternalReferral", "anAppointment", "aNewProspect", "howToConvertAProspect", "anEnrollmentReport", "aCourse", "aNewContact", "mPoweredFinancialCoachingReferrals", "mPoweredFinancialCoachingAppointments"],
                 },
                 {
                   title: "2.1.2 How to send…",
                   prefix: "howToSend/",
                   collapsable: true,
-                  children: ["... an Email", "... a Bulk Email", "... a single SMS", "... multiple SMS "],
+                  children: ["anEmail", "aBulkSMSForACampaign", "aSingleSMS", "multipleSMS"],
                 },
                 {
                   title: "2.1.3 How to track...",
                   prefix: "howToTrack/",
                   collapsable: true,
-                  children: ["... technology lending", "... and manage Partner Engagement"],
+                  children: ["technologyLending", "andManagePartnerEngagement"],
                 },
                 {
                   title: "2.1.4 Other guides...",
                   prefix: "otherGuides/",
                   collapsable: true,
-                  children: ["How to complete a COVID-19 Assessment", "How to update a contact", "Salesforce Beginner Onboarding", "How to convert a Prospect", "Reports & Dashboards: Basic Guide", "How to print forms in Salesforce", "How to clone an Application or Enrollment Record", "How to enter a Navigation Appointment", "ow the Lead Processes Paths work", "How the Sales Processes Paths work", "How the Support Processes Paths work", "Prospects FAQ"],
+                  children: ["How to complete a COVID-19 Assessment", "How to update a contact", "Salesforce Beginner Onboarding", "How to convert a Prospect", "Reports & Dashboards: Basic Guide", "How to print forms in Salesforce", "How to clone an Application or Enrollment Record", "How to enter a Navigation Appointment", "How the Lead Processes Paths work", "How the Sales Processes Paths work", "How the Support Processes Paths work", "Prospects FAQ", "supportAlertIntroduction", "howToSubmitASupportAlert", "dataRequestFormInitialGuide"],
                 },
               ],
             },
@@ -111,7 +111,7 @@ module.exports = config({
             {
               title: "2.3 Developer Guides",
               icon: "code",
-              prefix: "Developer Guides/",
+              prefix: "developerGuides/",
               collapsable: false,
               children: [
                   "Mogli Opt-Out Automation | On lead and Contact",
@@ -133,7 +133,7 @@ module.exports = config({
                   title: "3.1.1 How to create...",
                   prefix: "howToCreate/",
                   collapsable: true,
-                  children: ["... Career Pathways Appointments", "... Career Coaching Appointments", "... and update Career Retentions"],
+                  children: ["careerPathwaysAppointments", "careerCoachingAppointments", "andUpdateCareerRetentions"],
                 },
                 {
                   title: "3.1.2 How to enter…",

@@ -14,7 +14,7 @@ sticky: true
 # this page will appear in aricle channel in home page
 star: true
 # You can customize the footer
-footer: Footer content for test
+footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
 ## How to use this documentation
