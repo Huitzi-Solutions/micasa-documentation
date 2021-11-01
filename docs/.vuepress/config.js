@@ -53,7 +53,7 @@ module.exports = config({
           title: "1.0 Introduction",
           prefix: "introduction/",
           collapsable: true,
-          children: ["howToUseThisGuide", "1.2 Program Dictionary Mi Casa Resource Center"],
+          children: ["howToUseThisGuide", "programDictionaryMiCasaResourceCenter"],
         },
         {
           title: "2.0 MCRC Everyday Processes",
