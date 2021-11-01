@@ -22,7 +22,7 @@ features:
     link: /guide/careerPathway/CPhowToCreate/careerPathwaysAppointments/
 
   - title: 4.0 Business Pathway
-    link: /guide/businessPathway/
+    link: /guide/introduction/programDictionaryMiCasaResourceCenter/
 
 copyrightText: false
 footer: Copyright © 2021 Mi Casa Resource Center
