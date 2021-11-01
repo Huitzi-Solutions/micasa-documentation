@@ -121,7 +121,7 @@ module.exports = config({
         },
         {
           title: "3.0 Career Pathway",
-          prefix: "Career Pathway/",
+          prefix: "careerPathway/",
           collapsable: true,
           children: [
             {
@@ -131,21 +131,21 @@ module.exports = config({
               children: [
                 {
                   title: "3.1.1 How to create...",
-                  prefix: "howToCreate/",
+                  prefix: "CPhowToCreate/",
                   collapsable: true,
                   children: ["careerPathwaysAppointments", "careerCoachingAppointments", "andUpdateCareerRetentions"],
                 },
                 {
                   title: "3.1.2 How to enter…",
-                  prefix: "howToEnter/",
+                  prefix: "CPhowToEnter/",
                   collapsable: true,
-                  children: ["... Support Services- Career Pathways", "... a Career Coaching Enrollment"],
+                  children: ["supportServicesCareerPathways", "aCareerCoachingEnrollment"],
                 },
                 {
                   title: "3.1.3 Other guides...",
-                  prefix: "otherGuides/",
+                  prefix: "CPotherGuides/",
                   collapsable: true,
-                  children: ["How to take attendance for a training course", "How to manage workshop attendance", "How to update a contact and enroll in Career Coaching", "How to view a Career Dashboard"],
+                  children: ["How to take attendance for a training course", "howToManageWorkshopAttendance", "howToUpdateAContactAndEnrollInCareerCoaching", "howToViewACareerDashboard"],
                 },
               ],
             },
