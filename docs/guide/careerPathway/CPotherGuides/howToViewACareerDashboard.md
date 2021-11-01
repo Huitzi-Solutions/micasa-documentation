@@ -2,7 +2,8 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: ... Career Pathways Appointments
+title: ...How to view a Career Dashboard
+
 # Set author
 author: Huitzi Solutions
 # Set writing time
@@ -21,39 +22,35 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## Page information
+##...How to view a Career Dashboard
 
-You can set page information in Markdown’s Frontmatter.
+**Doc version:** 2021 
 
-- The author is set to Huitzi Solutions.
+**Objective:**  In this section you will find how to view a career dashboard.
 
-- The writing time should be January 1, 2020
+**Where is it located within the Salesforce Org?** |Navigation inside the Org. E.G [Mi Casa” | App | More](https://micasa.lightning.force.com/lightning/o/Dashboard/home?queryScope=mru)
 
-- Category is "Guide"
 
-- Tags are "Page Config" and "Guide"
+**Difficulty:** Advanced.
 
-## Page content
+**Steps:**
 
-You are free to write your Markdown here.
+1. Click on More in the Navigation Bar, and then click Dashboards.
+2. Open the Career Dashboard Folder. 
+3. Open Career Overview Dashboard - 2021.
 
-::: tip
+**imagenaqui**
 
-- Please use the relative link `./` for pictures in the Markdown folder.
+**Note: the dashboards do not refresh automatically. You have to update the dashboard manually,  clicking the Refresh button.**
 
-- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
+Dashboard components are built of information from the reports. There are different ways to represent the data and information through visualizations such as charts, tables, etc.
 
-:::
+4. If you want to view the complete report of the component/dashboard, you have to click the link View Report(Training Enrollments - 2021)
 
-The theme contains a custom badge:
+**imagenaqui**
 
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
+5. In case you want to get any updates of a dashboard, click on the Subscribe button located at the top right corner. 
 
-## Page structure
+**imagenaqui**
 
-This page should contain:
 
-- Back to top button
-- Route navigation
-- Comments
-- Footer

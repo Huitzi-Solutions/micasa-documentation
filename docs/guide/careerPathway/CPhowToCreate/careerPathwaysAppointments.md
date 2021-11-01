@@ -2,7 +2,7 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: ... Career Pathways Appointments
+title: ...Career Pathways Appointments
 # Set author
 author: Huitzi Solutions
 # Set writing time
@@ -21,39 +21,28 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## Page information
+##...Career Pathways Appointments
 
-You can set page information in Markdown’s Frontmatter.
+**Doc version:** 2021 
 
-- The author is set to Huitzi Solutions.
+**Objective:**  In this section you will find how to create a Career Pathways Appointment.
 
-- The writing time should be January 1, 2020
+**Where is it located within the Salesforce Org?** |Navigation inside the Org. E.G [Mi Casa” | App | Contact](https://micasa--partial.lightning.force.com/lightning/o/Contact/list?filterName=Recent)
 
-- Category is "Guide"
 
-- Tags are "Page Config" and "Guide"
+**Difficulty:** Beginner.
 
-## Page content
+**Steps:**
 
-You are free to write your Markdown here.
+1. In the Global Search Bar, enter the participant’s name. Select the participant's name that has the Contact that appears from the list.
 
-::: tip
+**imagenaqui**
 
-- Please use the relative link `./` for pictures in the Markdown folder.
+2. At the top of the participant’s **Contact Record** you will see a link that says “Enter  New Career Pathway Appointment”. Select this link. The participant name will be prefilled, you will be prompted to enter remaining appointment info.
 
-- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
 
-:::
 
-The theme contains a custom badge:
+3. Hit “Submit”. Here is what happened: Salesforce created a Career Pathway appointment under the appropriate course.
 
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
 
-## Page structure
 
-This page should contain:
-
-- Back to top button
-- Route navigation
-- Comments
-- Footer

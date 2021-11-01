@@ -2,7 +2,8 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: ... Career Pathways Appointments
+title: ...Support Services-Career Pathways
+
 # Set author
 author: Huitzi Solutions
 # Set writing time
@@ -21,39 +22,51 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## Page information
+##...Support Services-Career Pathways
 
-You can set page information in Markdown’s Frontmatter.
 
-- The author is set to Huitzi Solutions.
+**Doc version:** 2021 
 
-- The writing time should be January 1, 2020
+**Objective:**  In this section you will find how to enter support Services for Career Pathways.
 
-- Category is "Guide"
+**Where is it located within the Salesforce Org?** |Navigation inside the Org. E.G [Mi Casa” | App | Contact](https://micasa--partial.lightning.force.com/lightning/o/Contact/list?filterName=Recent)
 
-- Tags are "Page Config" and "Guide"
 
-## Page content
+**Difficulty:** Beginner.
 
-You are free to write your Markdown here.
+**Steps:**
 
-::: tip
+1. In the participant contact, select “Click here to add a Career Pathways or Stackable Credentials Appointment.
 
-- Please use the relative link `./` for pictures in the Markdown folder.
 
-- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
 
-:::
+**imagenaqui**
 
-The theme contains a custom badge:
+2. For type of appointment.
+3. Select Navigation. 
+4. Enter the participant’s name.
+5. Choose the Method of Contact and Navigation Type.
+6. Appointment Status should be “Attended.”
+7. Choose a Course Name (select the most recent course that the participated in).
+8. Enter the appointment Date and Appointment time.
+9. Under Navigation Topics, select Support Services- note you can select more than one topic.
 
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
 
-## Page structure
+**imagenaqui**
 
-This page should contain:
 
-- Back to top button
-- Route navigation
-- Comments
-- Footer
+10. Choose an appointment coach and enter any notes.
+11. Under Support Services choose Card Vendor and Primary Category/Purpose.
+
+**imagenaqui**
+
+12. Enter the Total Amount distributed (in dollars)
+13. Enter the total number of gift cards (or booklets of bus passes).
+14. Select Submit.
+
+
+
+
+
+
+

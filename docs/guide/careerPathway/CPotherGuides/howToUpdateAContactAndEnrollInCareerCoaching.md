@@ -2,7 +2,8 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: ... Career Pathways Appointments
+title: ...How to update a contact and enroll in Career Coaching
+
 # Set author
 author: Huitzi Solutions
 # Set writing time
@@ -21,39 +22,28 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## Page information
+##...How to update a contact and enroll in Career Coaching
 
-You can set page information in Markdown’s Frontmatter.
 
-- The author is set to Huitzi Solutions.
+**Doc version:** 2021 
 
-- The writing time should be January 1, 2020
+**Objective:**  In this section you will find how to enter a Career Coaching Enrollment.
 
-- Category is "Guide"
+**Where is it located within the Salesforce Org?** |Navigation inside the Org. E.G [Mi Casa” | App | Contact](https://micasa--partial.lightning.force.com/lightning/o/Contact/list?filterName=Recent)
 
-- Tags are "Page Config" and "Guide"
 
-## Page content
+**Difficulty:** Beginner.
 
-You are free to write your Markdown here.
+**Steps:**
 
-::: tip
+1. In the Global Search Bar, enter the participant’s name. Select the Contact that appears in the list.
 
-- Please use the relative link `./` for pictures in the Markdown folder.
+**imagenaqui**
 
-- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
+2. In the Form Links section at the top of the Contact record, select the “Click here to update WF or to enter a new Course Application” link.
+3. On the first page of the Staff Data Entry Form, select your name from the data entry staff list. Then select the **Welcome Form** and **Career Coaching 2019** (or appropriate year) boxes. The Career Coaching box will prompt another field to appear – select **Career Coaching** from the career application type list. Then hit Next Page.
 
-:::
+**imagenaqui**
 
-The theme contains a custom badge:
-
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
-
-## Page structure
-
-This page should contain:
-
-- Back to top button
-- Route navigation
-- Comments
-- Footer
+4. Fill out all applicable information.
+5. When finished, click the Save to Salesforce button.
