@@ -21,39 +21,40 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## Page information
+##... a Course
+**Doc version:** 2017 
 
-You can set page information in Markdown’s Frontmatter.
+**Objective:**  In this section you will find how to create a course. 
 
-- The author is set to Huitzi Solutions.
+**Where is it located within the Salesforce Org?** |Navigation inside the Org. E.G [Mi Casa App | Accounts] (https://micasa.lightning.force.com/lightning/o/Account/home)
 
-- The writing time should be January 1, 2020
+**Difficulty:** Beginner.
 
-- Category is "Guide"
+**Steps:**
 
-- Tags are "Page Config" and "Guide"
+1. Click on Accounts object tab
 
-## Page content
+**imagenaqui**
 
-You are free to write your Markdown here.
+2. At top left, click on the Recently Viewed list view. From that drop down list, select the All Programs list view.
 
-::: tip
 
-- Please use the relative link `./` for pictures in the Markdown folder.
+3. Click on your Program account.
 
-- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
 
-:::
+4. From your Program page, click on the Courses record tab. Footnote 3 link[^Third].
 
-The theme contains a custom badge:
+5. [^Third]: Footnote ** You can also access this by clicking on the Related record tab**
 
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
+6. **imagenaqui**
 
-## Page structure
+7. At the top right of the Courses tile, click the Add Course button.
 
-This page should contain:
 
-- Back to top button
-- Route navigation
-- Comments
-- Footer
+8. This will bring up the Create Account: Course screen
+  a. Enter the name of the Course in the Account Name field. Please be sure to use standard naming conventions
+  b. In both the Program and Parent Account fields, search your Program Name.
+  c. Select a Type and enter a Description if desired.
+  d. In the Course Details, select your Program from the drop down.
+  e. Enter as much of the Course Details as applicable to your course.
+  f. Click the Save button.

@@ -2,7 +2,7 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: page config
+title: ... an Email
 # Set author
 author: Huitzi Solutions
 # Set writing time
@@ -21,39 +21,39 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## Page information
+## ... an Email
+**Doc version:** 2020
 
-You can set page information in Markdown’s Frontmatter.
+### **Objective:**  
+In this section you will find how to send an email in Salesforce.
 
-- The author is set to Huitzi Solutions.
+### **Where is it located within the Salesforce Org?** 
+|Navigation inside the Org. E.G [Mi Casa App | Contacts | Maria Jose Tamayo] (https://micasa.lightning.force.com/lightning/r/Contact/0032M00003AyyzYQAR/view)
 
-- The writing time should be January 1, 2020
+**Difficulty:**  Beginner.
 
-- Category is "Guide"
+### **Steps:**
 
-- Tags are "Page Config" and "Guide"
+1. Navigate to the Contact record for the email recipient, then look to the right sidebar to find the Activity feed.
 
-## Page content
+**imagenaqui**
 
-You are free to write your Markdown here.
+2. The Activity feed defaults to Tasks. Click on the Email option in the Activity feed to send an email.
 
-::: tip
+3. You will automatically be added as the sender. The Contact whose record you’re on will auto-populate in the To field. If needed, click the CC and/or BCC button to add those fields, and add the appropriate Contacts/emails to those fields.
 
-- Please use the relative link `./` for pictures in the Markdown folder.
 
-- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
+4. Enter a Subject.
 
-:::
 
-The theme contains a custom badge:
+5. Type the body of your email. 
 
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
 
-## Page structure
+6. Below the email body, you will see a Related To field. This will automatically default to the Record (Application/Appointment/Course/etc) that you are emailing from.
 
-This page should contain:
 
-- Back to top button
-- Route navigation
-- Comments
-- Footer
+7. Below the Related To field are a few icons. The first, a paperclip, is how you can attach documents. If you prefer a larger view of the email, you can click on the far right icon, a square with an arrow. This will create a pop up window for the email. 
+
+
+8. When finished, click the Send button. 
+

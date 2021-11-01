@@ -21,39 +21,55 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## Page information
+## … an Appointment
 
-You can set page information in Markdown’s Frontmatter.
+**Doc version:** 2017
 
-- The author is set to Huitzi Solutions.
+**Objective:**  In this section you will find how to create an appointment for a participant of one of Mi Casa’s programs.
 
-- The writing time should be January 1, 2020
+**Where is it located within the Salesforce Org?** | [“Mi Casa” | App | Account] (https://micasa--partial.lightning.force.com/lightning/r/Account/0014100001MROyxAAH/view)
 
-- Category is "Guide"
+**Difficulty:** Beginner
 
-- Tags are "Page Config" and "Guide"
+**Steps**
 
-## Page content
+1. Click on Accounts object tab
 
-You are free to write your Markdown here.
+**imagenaqui**
 
-::: tip
+2. At top left, click on the Recently Viewed list view. From that drop down list, select All Programs list view.
 
-- Please use the relative link `./` for pictures in the Markdown folder.
+**imagenaqui**
 
-- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
+3. Click on your Program account.
 
-:::
+**imagenaqui**
 
-The theme contains a custom badge:
+4. From your Program page, click on the Courses record tab. Footnote 1 link[^First].
+[^First]: Footnote **You can also access this by clicking on the Related record tab**
 
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
+5. At the bottom right of the Courses tile, click View All.
 
-## Page structure
 
-This page should contain:
+6. Select the appropriate Course account from the list. Choose  
+Depending on the course that the appointment is related to, please select the following:
 
-- Back to top button
-- Route navigation
-- Comments
-- Footer
+-If it is a coaching appointment, select the Career Coaching course
+-If Navigation appointment, select the training course the participant is/was enrolled in
+-If Success Appointment/retention appointment, select the training course the participant was enrolled in
+
+
+7. From the Course page, click on the Related record tab.
+
+
+8. On the Related List page, scroll down to Appointments. Click the New button.
+
+
+9. A New Appointment screen will pop up. Select the appropriate type of appointment and click Next.
+
+
+10. This will bring up the Create Appointment screen. You will be entering information into the “Appointment Details” and “Additional Information” sections only.
+
+  a. You will start by entering the participant name into Contact Name and selecting a Method of Contact. If applicable, type the participant name into the Application/Enrollment field to search for their application (for Appointments associated with the application process).
+  b. Fill out as many other fields as apply.
+  c. Click Save.

@@ -21,39 +21,26 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## Page information
+## ... a New Contact
 
-You can set page information in Markdown’s Frontmatter.
+**Doc version:**  2017
 
-- The author is set to Huitzi Solutions.
+**Objective:**  In this section you will find how to create a new contact.
 
-- The writing time should be January 1, 2020
+**Where is it located within the Salesforce Org?** |Navigation inside the Org. E.G [Mi Casa App | Home Page] (https://micasa.lightning.force.com/lightning/page/home)
 
-- Category is "Guide"
+**Difficulty:** Beginner.
 
-- Tags are "Page Config" and "Guide"
+**Steps:**
 
-## Page content
+From your home page, select the “Click here to enter Welcome Forms & Course Applications”  or the “ Click here to enter Youth Registration Forms” link.
 
-You are free to write your Markdown here.
 
-::: tip
+Check the boxes next to the pieces of the Welcome Form/applications that you need to enter. Then select your name from the list. Then click the Next Page button.
 
-- Please use the relative link `./` for pictures in the Markdown folder.
 
-- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
+Fill out all applicable information.
+**Note: on the 2nd page of the Welcome Form, please ensure that you begin the Household Relationship table online a, NOT the example line.**
 
-:::
 
-The theme contains a custom badge:
-
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
-
-## Page structure
-
-This page should contain:
-
-- Back to top button
-- Route navigation
-- Comments
-- Footer
+When finished, click the <u>Save to SFDC</u> button.

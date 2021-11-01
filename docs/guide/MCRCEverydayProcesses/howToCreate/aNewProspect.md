@@ -21,39 +21,33 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## Page information
+## ...a New Prospect
 
-You can set page information in Markdown’s Frontmatter.
+**Doc version:** 2019
 
-- The author is set to Huitzi Solutions.
+**Objective:**  In this section you will find how to create a new prospect who is interested in participating in one of Mi Casa’s programs.
 
-- The writing time should be January 1, 2020
+**Where is it located within the Salesforce Org?**| Navigation inside the Org. E.G [Mi Casa” | App | Prospect] (https://micasa--partial.lightning.force.com/lightning/o/Lead/list?filterName=Recent)
 
-- Category is "Guide"
+**Difficulty:** Beginner
 
-- Tags are "Page Config" and "Guide"
+**Quick Entry – Recommended**
+From your home page, select the Interest Form link in the Staff Data Entry Links box at the top right of the homepage.
 
-## Page content
 
-You are free to write your Markdown here.
+Enter the required information and select the program of interest. If applicable, select the program-specific follow up question.
 
-::: tip
 
-- Please use the relative link `./` for pictures in the Markdown folder.
+When finished, click Submit. You can now find the submitted prospect in the Prospect tab of Salesforce. (You may need to refresh Salesforce). From here you can add any additional information/notes.
 
-- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
 
-:::
+**Alternative Entry**
 
-The theme contains a custom badge:
+1. Within the Prospect tab of Salesforce, click the New button at the top right of your screen. This will prompt you to select a type of Prospect. Then click Next.  Footnote 2 link[^Second].
+[^Second]: Footnote **Note: Depending on your program team, you may just see a selection of these record types**
 
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
+**imagneaqui**
 
-## Page structure
+2. Enter the prospect information, including all required fields. This includes the Program of Interest field, which should be entered as the program name (Business, Career, ProBoPat, Youth, etc). The fields available will differ by Prospect record type. When done, click Save. (If entering multiple prospects at once, click Save & New).
 
-This page should contain:
-
-- Back to top button
-- Route navigation
-- Comments
-- Footer
+**imagneaqui**
