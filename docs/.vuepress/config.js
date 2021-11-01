@@ -52,13 +52,13 @@ module.exports = config({
         {
           title: "1.0 Introduction",
           prefix: "introduction/",
-          collapsable: true,
+          collapsable: false,
           children: ["howToUseThisGuide", "programDictionaryMiCasaResourceCenter"],
         },
         {
           title: "2.0 MCRC Everyday Processes",
-          prefix: "EverydayProcesses/",
-          collapsable: true,
+          prefix: "MCRCEverydayProcesses/",
+          collapsable: false,
           children: [
             {
               title: "2.1 User Guides",
@@ -69,7 +69,7 @@ module.exports = config({
                   title: "2.1.1 How to create...",
                   prefix: "howToCreate/",
                   collapsable: true,
-                  children: ["...an Internal Referral", "...an External Referral", "...an Appointment", "...an New Prospect", "...an Enrollment Report", "...a Course", "...a New Contact", "...mPowered Financial Coaching Referrals", "...mPowered Financial Coaching Appointments"],
+                  children: ["anInternalReferral", "anExternalReferral", "anAppointment", "aNewProspect", "anEnrollmentReport", "aCourse", "aNewContact", "mPoweredFinancialCoachingReferrals", "mPoweredFinancialCoachingAppointments"],
                 },
                 {
                   title: "2.1.2 How to send…",
