@@ -149,7 +149,7 @@ export interface EncryptOptions {
    * ```json
    * {
    *   // 这会加密整个 guide 目录，并且两个密码都是可用的
-   *   "/guide/": ["1234", "5678"],
+   *   "/documentation/": ["1234", "5678"],
    *   // 这只会加密 config/page.html
    *   "/config/page.html": "1234"
    * }
@@ -162,7 +162,7 @@ export interface EncryptOptions {
    * ```json
    * {
    *   // This will encrypt the entire guide directory and both passwords will be available
-   *   "/guide/": ["1234", "5678"],
+   *   "/documentation/": ["1234", "5678"],
    *   // this will only encrypt config/page.html
    *   "/config/page.html": "1234"
    * }

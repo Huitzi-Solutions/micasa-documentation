@@ -274,7 +274,7 @@ module.exports = config({
           {
             name: "Guide",
             short_name: "Guide",
-            url: "/guide/",
+            url: "/documentation/",
             icons: [
               {
                 src: "/assets/icon/guide-maskable.png",
