@@ -145,7 +145,7 @@ module.exports = config({
                   title: "3.1.3 Other guides...",
                   prefix: "CPotherGuides/",
                   collapsable: true,
-                  children: ["How to take attendance for a training course", "howToManageWorkshopAttendance", "howToUpdateAContactAndEnrollInCareerCoaching", "howToViewACareerDashboard"],
+                  children: ["howToTakeAttendanceForATrainingCourse", "howToManageWorkshopAttendance", "howToUpdateAContactAndEnrollInCareerCoaching", "howToViewACareerDashboard"],
                 },
               ],
             },
