@@ -75,7 +75,7 @@ module.exports = config({
                   title: "2.1.2 How to send…",
                   prefix: "howToSend/",
                   collapsable: true,
-                  children: ["anEmail", "aBulkSMSForACampaign", "aSingleSMS", "multipleSMS"],
+                  children: ["anEmail", "aBulkSMSForACampaign", "aSingleSMS"],
                 },
                 {
                   title: "2.1.3 How to track...",
@@ -87,7 +87,7 @@ module.exports = config({
                   title: "2.1.4 Other guides...",
                   prefix: "otherGuides/",
                   collapsable: true,
-                  children: ["How to complete a COVID-19 Assessment", "How to update a contact", "Salesforce Beginner Onboarding", "How to convert a Prospect", "Reports & Dashboards: Basic Guide", "How to print forms in Salesforce", "How to clone an Application or Enrollment Record", "How to enter a Navigation Appointment", "How the Lead Processes Paths work", "How the Sales Processes Paths work", "How the Support Processes Paths work", "Prospects FAQ", "supportAlertIntroduction", "howToSubmitASupportAlert", "dataRequestFormInitialGuide"],
+                  children: ["howToCompleteACOVID-19Assesment", "How to update a contact", "addNewSupportService", "Salesforce Beginner Onboarding", "How to convert a Prospect", "Reports & Dashboards: Basic Guide", "How to print forms in Salesforce", "How to clone an Application or Enrollment Record", "How to enter a Navigation Appointment", "How the Lead Processes Paths work", "How the Sales Processes Paths work", "How the Support Processes Paths work", "Prospects FAQ", "supportAlertIntroduction", "howToSubmitASupportAlert", "dataRequestFormInitialGuide"],
                 },
               ],
             },
