@@ -75,7 +75,7 @@ module.exports = config({
                   title: "2.1.2 How to send…",
                   prefix: "howToSend/",
                   collapsable: true,
-                  children: ["anEmail", "aBulkSMSForACampaign", "aSingleSMS", "multipleSMS"],
+                  children: ["anEmail", "aBulkSMSForACampaign", "aSingleSMS"],
                 },
                 {
                   title: "2.1.3 How to track...",

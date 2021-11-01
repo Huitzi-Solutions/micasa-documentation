@@ -2,17 +2,13 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: ... a Bulk Email
+title: ... a Bulk SMS for a Campaign
 # Set author
 author: Huitzi Solutions
 # Set writing time
 time: 2020-01-01
 # A page can only have one category
 category: Guide
-# A page can have multiple tags
-tag:
-  - Page config
-  - Guide
 # this page is sticky in article list
 sticky: true
 # this page will appear in aricle channel in home page
@@ -21,39 +17,57 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## ... a Bulk Email - 2020
+## ... bulk SMS for a campaign
 
 **Doc version:** 2020
 
 ### **Objective:**  
-In this section you will find how to send a bulk email from a campaign. 
+
+In this section you will find how to send a Bulk SMS from a campaign
 
 ### **Where is it located within the Salesforce Org?**
-|Navigation inside the Org. E.G [Mi Casa App | Campaigns] (https://micasa.lightning.force.com/lightning/o/Campaign/list?filterName=Recent )
+
+|Navigation inside the Org. E.G [Mi Casa App | Contacts | Maria Jose Tamayo](https://micasa.lightning.force.com/lightning/r/Contact/0032M00003AyyzYQAR/view)
 
 **Difficulty:** Beginner.
 
-1. From the Salesforce homepage, click on the Campaigns tab.
+### **Steps:**
 
+1. From your Salesforce homepage, click on the Bulk SMS tab. It may be under the More (<img :src="$withBase('/assets/bulkSMS/1.png')" alt="foo">) dropdown on the right.
 
-2. The default list view on the Campaigns object is Recently Viewed. You can keep it as that, or you can click on the Recently Viewed drop down and change it to your program. Once you’re on your program list view, click the thumbtack button () to the right of the list view to set that as your default list view.
+2. This will load the Mogli Bulk SMS wizard. From here, you can choose to add Contacts or Leads individually – this could be helpful if you want to text just a couple participants the same thing – or you can add a Campaign.
 
-**imagenaqui**
+<img :src="$withBase('/assets/bulkSMS/2.png')" alt="foo">
 
+3. To add a Campaign, search for it in the “Search Campaign…” box. This box will also auto-populate a list of your recently viewed Campaigns. Once you’ve selected the desired campaign, the SMS Recipients box at the upper right will populate the name and Mogli phone numbers of the Contacts or Leads associated with the Campaign. It will also give you a count of the total number of recipients.
 
-3. Select your Campaign from the list.
+<img :src="$withBase('/assets/bulkSMS/3.png')" alt="foo">
 
+4. Once your Contacts or Leads are loaded, you can either load an SMS Template or type your message in the box. You can also add a merge field from the drop down list – this will fill in a certain field from Salesforce to each participant – for example, if you want to send a personalized greeting to each recipient, you can use the {{Contact.FirstName}}! merge field to auto-fill each recipient’s first name.
+This box also counts the number of characters you use. Keep in mind that some phone carriers may split messages into multiple texts after a certain number of characters (usually around 140 characters).
 
-4. In the Campaign record, the Campaign Details tab will give you an overview of the Campaign, including the type, status, a description, and a count of how many Contacts are associated. To see the specific Contacts, click on the Campaign Management tab.
+<img :src="$withBase('/assets/bulkSMS/4.png')" alt="foo">
 
-**imagenaqui**
+5. The SMS Send Configuration box allows you to choose which phone number (Gateway) to send the message from, as well as schedule the text to be sent later. The Send From number should be the relevant program. If you want to send the text at a later date and/or time, select the specific date <img :src="$withBase('/assets/bulkSMS/5.png')" alt="foo"> and time (<img :src="$withBase('/assets/bulkSMS/6.png')" alt="foo">) from the boxes.
 
-5. At the bottom of the Campaign Members tile, click View All. This will show you the list of Contacts in your Campaign.
+<img :src="$withBase('/assets/bulkSMS/7.png')" alt="foo">
 
-6. To send an email to certain/all Contacts in the Campaign, check the boxes next to the Contacts you wish to email (to select all, check the box in the header). Then select Send List Email under the dropdown arrow at the upper right. 
+6. Once your Campaign is selected, a message is written (or template is chosen), and Send Configuration is set, you can hit the blue Send box to send the message. A green “Bulk Group ID…” box will appear on your screen when the send is successful
 
-**imagenaqui**
+<img :src="$withBase('/assets/bulkSMS/8.png')" alt="foo">
 
-7. This will open an email box where you can write an email or insert a template. To preview your message, select the Review tab. When complete, click the blue Send button.
+### **How to Send A Bulk SMS - From a List View**
 
-**imagenaqui**
+1. From the Salesforce home page, click on the Contacts (or Prospects) tab. In the Contacts object, click on the words Recently Viewed at the upper left to change the list view. Scroll or search for your desired list view.
+
+<img :src="$withBase('/assets/bulkSMS/9.jpg')" alt="foo">
+
+2. In the list view, select the box next to the Name column to select all contacts (alternatively, you can select certain Contacts or Prospects you’d like to text). Once the contacts are selected, click on the down arrow button at the upper right (next the Add to Campaign button) and select Send SMS Lightning.
+
+<img :src="$withBase('/assets/bulkSMS/10.jpg')" alt="foo">
+
+3. This will take you to the Bulk SMS page. The upper right box, SMS Recipients, lists everyone selected to receive the message. In the middle right box, SMS Message, type the desired message or choose an SMS Template from the dropdown list.
+In the bottom right box, SMS Send Configuration, you can leave the Send From: box on Default (all Staff contacts are set to default to the Program Support/general number). If you want to schedule the message to send at a later point, you can select the date and time.
+When finished entering the message, hit Send.
+
+<img :src="$withBase('/assets/bulkSMS/11.png')" alt="foo">
