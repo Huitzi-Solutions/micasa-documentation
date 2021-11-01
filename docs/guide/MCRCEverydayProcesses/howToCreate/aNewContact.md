@@ -4,7 +4,7 @@ icon: page
 # This is the title of the article
 title: ...a New Contact
 # Set author
-author: Ms.Hope
+author: Huitzi Solutions
 # Set writing time
 time: 2020-01-01
 # A page can only have one category
@@ -25,7 +25,7 @@ footer: Footer content for test
 
 You can set page information in Markdown’s Frontmatter.
 
-- The author is set to Ms.Hope.
+- The author is set to Huitzi Solutions.
 
 - The writing time should be January 1, 2020
 
