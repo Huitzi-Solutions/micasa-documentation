@@ -2,7 +2,7 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: ... Career Pathways Appointments
+title: ... Pre, Post & Hope Surveys
 # Set author
 author: Huitzi Solutions
 # Set writing time
@@ -21,39 +21,29 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## Page information
+**Doc version:** 2019
 
-You can set page information in Markdown’s Frontmatter.
+**Objective:** In this section you will find how to enter pre, post & hope surveys.
 
-- The author is set to Huitzi Solutions.
+**Where is it located within the Salesforce Org?** | Navigation inside the Org. E.G
+[Mi Casa App | Course Account | Related | Forms](https://micasa.lightning.force.com/lightning/r/Contact/0032M00003AyyzYQAR/view)
 
-- The writing time should be January 1, 2020
+**Difficulty:** Advanced.
 
-- Category is "Guide"
+**Steps:**
 
-- Tags are "Page Config" and "Guide"
+1.  Search for the course account by using the global search bar:
 
-## Page content
+<img :src="$withBase('/assets/businessAppointments/preSurvey.png')" alt="foo">
 
-You are free to write your Markdown here.
+2. Select the correct survey type to begin data entry:
 
-::: tip
+- “BS/EX Pre and Post”: Generally start-up classes, including Business Success, Exito para Negocios, DreamBuilder, or La Receta
+- “BB Pre and Post”: Existing business classes, including Calculating Growth, Business Breakthrough
 
-- Please use the relative link `./` for pictures in the Markdown folder.
+<img :src="$withBase('/assets/businessAppointments/preSurvey2.png')" alt="foo">
 
-- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
+3. Begin entering data.
+4. Follow the same steps as listed in #4 to enter the Hope Survey (example below).
 
-:::
-
-The theme contains a custom badge:
-
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
-
-## Page structure
-
-This page should contain:
-
-- Back to top button
-- Route navigation
-- Comments
-- Footer
+<img :src="$withBase('/assets/businessAppointments/preApt3.png')" alt="foo">
