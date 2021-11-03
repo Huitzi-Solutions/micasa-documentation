@@ -87,30 +87,25 @@ module.exports = config({
                   title: "2.1.4 Other guides...",
                   prefix: "otherGuides/",
                   collapsable: true,
-                  children: ["howToCompleteACOVID-19Assesment", "How to update a contact", "addNewSupportService", "Salesforce Beginner Onboarding", "How to convert a Prospect", "reportsAndDashboardsBasicGuide", "How to print forms in Salesforce", "How to clone an Application or Enrollment Record", "How to enter a Navigation Appointment", "How the Lead Processes Paths work", "How the Sales Processes Paths work", "How the Support Processes Paths work", "Prospects FAQ", "supportAlertIntroduction", "howToSubmitASupportAlert", "dataRequestFormInitialGuide"],
+                  children: ["howToCompleteACOVID-19Assesment", "How to update a contact", "addNewSupportService", "Salesforce Beginner Onboarding", "How to convert a Prospect", "reportsAndDashboardsBasicGuide", "howToPrintFormsInSalesforce", "howToCloneAnApplicationOrEnrollmentRecord", "howToEnterANavigationAppointment", "How the Lead Processes Paths work", "How the Sales Processes Paths work", "How the Support Processes Paths work", "Prospects FAQ", "supportAlertIntroduction", "howToSubmitASupportAlert", "dataRequestFormInitialGuide"],
                 },
               ],
             },
             {
               title: "2.2 Admin Guides",
               icon: "admin",
+              prefix: "adminOtherGuides/",
               collapsable: false,
               children: [
                 {
-                  title: "2.2.1 Org model structure |How the database is organized",
+                  title: "2.2.1 Other guides",
                   collapsable: true,
-                  children: ["Primary Object Relationship"],
-                },
-                {
-                  title: "2.2.2 Other guides",
-                  collapsable: true,
-                  children: ["Data Request Form: Initial Guide", "Support Alert: Introduction", "How to submit a Support Alert"],
+                  children: ["createAndConfigureALeadProcess", "Data Request Form: Initial Guide", "Support Alert: Introduction", "How to submit a Support Alert"],
                 },
               ],
             },
             {
               title: "2.3 Developer Guides",
-              icon: "code",
               prefix: "developerGuides/",
               collapsable: false,
               children: [
@@ -164,7 +159,6 @@ module.exports = config({
             },
             {
               title: "2.3 Developer Guides",
-              icon: "code",
               prefix: "Developer Guides/",
               collapsable: false,
               children: [
