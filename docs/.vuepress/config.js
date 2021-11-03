@@ -50,41 +50,41 @@ module.exports = config({
     sidebar: {
       "/guide/": [
         {
-          title: "1.0 Introduction",
+          title: "Introduction",
           prefix: "introduction/",
-          collapsable: false,
+          collapsable: true,
           children: ["howToUseThisGuide", "programDictionaryMiCasaResourceCenter"],
         },
         {
-          title: "2.0 MCRC Everyday Processes",
+          title: "MCRC Everyday Processes",
           prefix: "MCRCEverydayProcesses/",
-          collapsable: false,
+          collapsable: true,
           children: [
             {
-              title: "2.1 User Guides",
+              title: "User Guides",
               icon: "user",
               collapsable: false,
               children: [
                 {
-                  title: "2.1.1 How to create...",
+                  title: "How to create...",
                   prefix: "howToCreate/",
                   collapsable: true,
                   children: ["anInternalReferral", "anExternalReferral", "anAppointment", "aNewProspect", "howToConvertAProspect", "anEnrollmentReport", "aCourse", "aNewContact", "mPoweredFinancialCoachingReferrals", "mPoweredFinancialCoachingAppointments"],
                 },
                 {
-                  title: "2.1.2 How to send…",
+                  title: "How to send…",
                   prefix: "howToSend/",
                   collapsable: true,
                   children: ["anEmail", "aBulkSMSForACampaign", "aSingleSMS"],
                 },
                 {
-                  title: "2.1.3 How to track...",
+                  title: "How to track...",
                   prefix: "howToTrack/",
                   collapsable: true,
                   children: ["technologyLending", "andManagePartnerEngagement"],
                 },
                 {
-                  title: "2.1.4 Other guides...",
+                  title: "Other guides...",
                   prefix: "otherGuides/",
                   collapsable: true,
                   children: ["howToCompleteACOVID-19Assesment", "How to update a contact", "addNewSupportService", "Salesforce Beginner Onboarding", "How to convert a Prospect", "reportsAndDashboardsBasicGuide", "howToPrintFormsInSalesforce", "howToCloneAnApplicationOrEnrollmentRecord", "howToEnterANavigationAppointment", "How the Lead Processes Paths work", "How the Sales Processes Paths work", "How the Support Processes Paths work", "Prospects FAQ", "supportAlertIntroduction", "howToSubmitASupportAlert", "dataRequestFormInitialGuide"],
@@ -92,56 +92,44 @@ module.exports = config({
               ],
             },
             {
-              title: "2.2 Admin Guides",
+              title: "Admin Guides",
               icon: "admin",
               prefix: "adminOtherGuides/",
               collapsable: false,
               children: [
                 {
-                  title: "2.2.1 Other guides",
+                  title: "Other guides",
                   collapsable: true,
                   children: ["createAndConfigureALeadProcess", "Data Request Form: Initial Guide", "Support Alert: Introduction", "How to submit a Support Alert"],
                 },
               ],
-            },
-            {
-              title: "2.3 Developer Guides",
-              prefix: "developerGuides/",
-              collapsable: false,
-              children: [
-                {
-                  title: "2.3.1 Process Builders",
-                  collapsable: true,
-                  children: ["introToProcessBuilders", "howToReadSection","mogliOptOutAutomation", "stackableCredentialsStages", "updateOpportunityAccountOnLeadConversion", "scheduledAppointments", "pendingPayments"],
-                }
-              ],
-            },
+            }
           ],
         },
         {
-          title: "3.0 Career Pathway",
+          title: "Career Pathway",
           prefix: "careerPathway/",
           collapsable: true,
           children: [
             {
-              title: "3.1 User Guides",
+              title: "User Guides",
               icon: "user",
               collapsable: false,
               children: [
                 {
-                  title: "3.1.1 How to create...",
+                  title: "How to create...",
                   prefix: "CPhowToCreate/",
                   collapsable: true,
                   children: ["careerPathwaysAppointments", "careerCoachingAppointments", "andUpdateCareerRetentions"],
                 },
                 {
-                  title: "3.1.2 How to enter…",
+                  title: "How to enter…",
                   prefix: "CPhowToEnter/",
                   collapsable: true,
                   children: ["supportServicesCareerPathways", "aCareerCoachingEnrollment"],
                 },
                 {
-                  title: "3.1.3 Other guides...",
+                  title: "Other guides...",
                   prefix: "CPotherGuides/",
                   collapsable: true,
                   children: ["howToTakeAttendanceForATrainingCourse", "howToManageWorkshopAttendance", "howToUpdateAContactAndEnrollInCareerCoaching", "howToViewACareerDashboard"],
@@ -149,7 +137,7 @@ module.exports = config({
               ],
             },
             {
-              title: "2.2 Admin Guides",
+              title: "Admin Guides",
               icon: "admin",
               prefix: "AdminGuides/",
               collapsable: false,
@@ -157,42 +145,32 @@ module.exports = config({
                 "How to clear search filters with respect to Career Coaching & EV Appointments",
               ],
             },
-            {
-              title: "2.3 Developer Guides",
-              prefix: "Developer Guides/",
-              collapsable: false,
-              children: [
-                {
-                  title: "Mogli Opt-Out Automation | On lead and Contact",
-                },
-              ],
-            },
           ],
         },
         {
-          title: "4.0 Business Pathway",
+          title: "Business Pathway",
           prefix: "Business Pathway/",
           collapsable: true,
           children: [
             {
-              title: "4.1 User Guides",
+              title: "User Guides",
               icon: "user",
               collapsable: false,
               children: [
                 {
-                  title: "3.1.1 How to create...",
+                  title: "How to create...",
                   prefix: "howToCreate/",
                   collapsable: true,
                   children: ["... Business Consulting Appointment | Form 641", "... a Business Counseling Survey"],
                 },
                 {
-                  title: "3.1.2 How to enter…",
+                  title: "How to enter…",
                   prefix: "howToEnter/",
                   collapsable: true,
                   children: ["... Business Appointments and 641s", "... a Business Consulting Appointment", "... Pre, Post & Hope Surveys"],
                 },
                 {
-                  title: "3.1.3 Other guides...",
+                  title: "Other guides...",
                   prefix: "otherGuides/",
                   collapsable: true,
                   children: ["How to search for and request a 641 Form", "How to view a Business Dashboard"],
@@ -200,13 +178,25 @@ module.exports = config({
               ],
             },
             {
-              title: "4.2 Admin Guides",
+              title: "Admin Guides",
               icon: "admin",
               collapsable: false,
               children: [
                 "",
               ],
             },
+          ],
+        },
+        {
+          title: "Developer Guides",
+          prefix: "developerGuides/",
+          collapsable: true,
+          children: [
+            {
+              title: "Process Builders",
+              collapsable: true,
+              children: ["introToProcessBuilders", "howToReadSection","mogliOptOutAutomation", "stackableCredentialsStages", "updateOpportunityAccountOnLeadConversion", "scheduledAppointments", "pendingPayments"],
+            }
           ],
         },
       ],

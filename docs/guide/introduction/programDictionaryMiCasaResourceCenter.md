@@ -2,7 +2,7 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: 1.2 Program Dictionary Mi Casa Resource Center
+title: Program Dictionary Mi Casa Resource Center
 # Set author
 author: Huitzi Solutions
 # Set writing time
