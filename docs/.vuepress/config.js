@@ -5,7 +5,7 @@ module.exports = config({
 	title: "Mi Casa's Salesforce Documentation",
 	description: '',
 
-	dest: './dist',
+	base: '/micasa-documentation/',
 
 	head: [
 		[
