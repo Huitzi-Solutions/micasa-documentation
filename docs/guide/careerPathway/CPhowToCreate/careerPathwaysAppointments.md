@@ -17,7 +17,7 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-##...Career Pathways Appointments
+## ...Career Pathways Appointments
 
 **Doc version:** 2021
 
