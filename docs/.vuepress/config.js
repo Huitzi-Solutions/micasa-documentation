@@ -5,7 +5,7 @@ module.exports = config({
 	title: "Mi Casa's Salesforce Documentation",
 	description: '',
 
-	dest: './dist',
+	base: '/micasa-documentation/',
 
 	head: [
 		[
@@ -39,6 +39,14 @@ module.exports = config({
 	},
 
 	themeConfig: {
+    encrypt: {
+      config: {
+        // This will encrypt the entire guide directory, and both passwords are available
+        "/guide/": ["MiCasaMeansMyHouse2021!"],
+        // This an example of a config that will only encrypt config/page.html
+        // "/config/page.html": "1234"
+      }
+    },
 		logo: '/logo.png',
 		hostname: 'https://vuepress-theme-hope-demo.mrhope.site',
 

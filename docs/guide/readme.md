@@ -5,6 +5,6 @@ category: Guide
 
 # Introduction
 
-- [1.0 Introduction](howToUseThisGuide.md)
+- [1.0 Introduction](./introduction/howToUseThisGuide.md)
 
-- [2.0 MCRC Everyday Processes](programDictionaryMiCasaResourceCenter.md)
+- [2.0 MCRC Everyday Processes](./introduction/programDictionaryMiCasaResourceCenter.md)
