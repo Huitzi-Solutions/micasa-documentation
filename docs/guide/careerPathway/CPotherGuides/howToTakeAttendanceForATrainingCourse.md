@@ -18,7 +18,7 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-##...How to take attendance for a training course
+## ...How to take attendance for a training course
 
 **Doc version:** 2021
 
@@ -37,13 +37,13 @@ In this section you will find how to enter a Career Coaching Enrollment.
 
 1. Use your global search bar to find the Course that you’re entering attendance for.
 
-<img :src=“$withBase(‘/assets/howToTakeAttendanceForTrainingCourse/1.png’)” alt=“foo”>
+<img :src="$withBase('/assets/howToTakeAttendanceForTrainingCourse/1.png')" alt=“foo”>
 
 2. After the first day of class, enroll all participants who attended the first day.
    Select View All in the Applications & Enrollments
    check the box on the left for each participant that attended day one. It may be helpful to sort the list by name – you can do so by clicking on the word Contact in the header.
 
-<img :src=“$withBase(‘/assets/howToTakeAttendanceForTrainingCourse/2.png’)” alt=“foo”>
+<img :src="$withBase('/assets/howToTakeAttendanceForTrainingCourse/2.png')" alt=“foo”>
 
 Once all of the participants have been selected – Salesforce will tell you at the upper left of the list how many registrations have been selected, which should match the number of people who attended– select the Mass Update button at the upper right. This will take you through the Mass Update Wizard.
 
@@ -71,7 +71,7 @@ This process only needs to happen on the first day of class.\_
 
 2. At the top right of the Course record page, click on the Add Class and Participants button.
 
-<img :src=“$withBase(‘/assets/howToTakeAttendanceForTrainingCourse/3.png’)” alt=“foo”>
+<img :src="$withBase('/assets/howToTakeAttendanceForTrainingCourse/3.png')" alt=“foo”>
 
 3. Enter the name, start/end date and time, and type of class. Click Save.
    Career Pathways Training Class List: M(Meeting number).
@@ -102,12 +102,12 @@ Follow these steps if a participant attends at least one class and then decides 
 1. Upon course completion, go to the course account.
 2. Select View All in the Applications & Enrollments
 
-<img :src=“$withBase(‘/assets/howToTakeAttendanceForTrainingCourse/4.png’)” alt=“foo”>
+<img :src="$withBase('/assets/howToTakeAttendanceForTrainingCourse/4.png')" alt=“foo”>
 
 3. Check the box on the left for each participant that is marked as In Progress. Do not select the boxes for any participant who is marked as No Call, No Show or Withdrew.
 4. Once participants have been selected – Salesforce will tell you at the upper left of the list how many registrations have been selected, which should match the number of people who completed the training– select the Mass Update button at the upper right. This will take you through the Mass Update Wizard.
 
-<img :src=“$withBase(‘/assets/howToTakeAttendanceForTrainingCourse/5.png’)” alt=“foo”>
+<img :src="$withBase('/assets/howToTakeAttendanceForTrainingCourse/5.png')" alt=“foo”>
 
 ### **Mass Update Wizard Steps**
 

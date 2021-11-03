@@ -18,7 +18,7 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-##...How to view a Career Dashboard
+## ...How to view a Career Dashboard
 
 **Doc version:** 2021
 
@@ -36,7 +36,7 @@ In this section you will find how to view a career dashboard.
 2. Open the Career Dashboard Folder.
 3. Open Career Overview Dashboard - 2021.
 
-<img :src=“$withBase(‘/assets/viewACareerDashboard/1.png’)” alt=“foo”>
+<img :src="$withBase('/assets/viewACareerDashboard/1.png')" alt=“foo”>
 
 ::: warning
 **The dashboards do not refresh automatically. You have to update the dashboard manually, clicking the Refresh button.**
@@ -46,8 +46,8 @@ Dashboard components are built of information from the reports. There are differ
 
 4. If you want to view the complete report of the component/dashboard, you have to click the link View Report(Training Enrollments - 2021)
 
-<img :src=“$withBase(‘/assets/viewACareerDashboard/2.png’)” alt=“foo”>
+<img :src="$withBase('/assets/viewACareerDashboard/2.png')" alt=“foo”>
 
 5. In case you want to get any updates of a dashboard, click on the Subscribe button located at the top right corner.
 
-<img :src=“$withBase(‘/assets/viewACareerDashboard/3.png’)” alt=“foo”>
+<img :src="$withBase('/assets/viewACareerDashboard/3.png')" alt=“foo”>
