@@ -33,29 +33,35 @@ Navigation inside the Org. E.G[Mi Casa App/Contacts/MariaJoseTamayo/Applications
 
 ### **Steps:**
 
-1. Go to the Participant Contact’s <u>Enrollment Record</u>
+#### 1. Go to the Participant Contact’s <u>Enrollment Record</u>
 
   a. To find a participant enrollment record you can:
 
       1.  Search for the participant name in the global search box and click on the participant’s appropriate <u>Enrollment Record.</u>
 
       2.  Go to your Program’s Account Page, and search for the appropriate course. Once in the course navigate to the <u>Related Link</u> and scroll down to <From>Applications & Enrollments.
-   
+
       3.  From here select “View All” and click on the appropriate <u>Enrollment Record.
 
-2. At the top right corner of the participant <u>Enrollment Record</u>  you will see a button that says “Mpowered Appointment Referral”. Select this button.
+#### 2. At the top right corner of the participant <u>Enrollment Record</u>  you will see a button that says “Mpowered Appointment Referral”. Select this button.
 
-You will be prompted to enter:
+    You will be prompted to enter:
 
-  a. Contact Name
-  b. Appointment Start Date/Time
-  c. mPowered Financial Coach
-  d. Appointment Status is automatically set to “Scheduled”—**do not change this.**
+    a. Contact Name
 
-3. Hit “Save”. Here is what happened:
+    b. Appointment Start Date/Time
 
-  a. Salesforce created a mPowered Financial Coaching Appointment Shell containing the data you entered.
-  b. Salesforce sent an email to the Financial Coach you associated with the appointment. Below is a sample of the email sent to mPowered financial coaches:
+    c. mPowered Financial Coach
+
+    d. Appointment Status is automatically set to “Scheduled”—**do not change this.**
+
+#### 3. Hit “Save”. Here is what happened:
+
+    a. Salesforce created a mPowered Financial Coaching Appointment Shell containing the data you entered.
+    
+    b. Salesforce sent an email to the Financial Coach you associated with the appointment. Below is a sample of the email sent to mPowered financial coaches:
+
+### Email Template
 
   >You have a new Financial Coaching Appointment Scheduled:
 >Hello {mPowered Financial Coach Name},

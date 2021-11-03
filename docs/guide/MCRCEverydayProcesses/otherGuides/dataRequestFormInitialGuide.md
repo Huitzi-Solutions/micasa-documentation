@@ -21,39 +21,57 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## Page information
+**Doc version:** 2020
 
-You can set page information in Markdown’s Frontmatter.
 
-- The author is set to Huitzi Solutions.
+### **Objective:**  
+In this section you will find how to use the Data Request Form.
 
-- The writing time should be January 1, 2020
 
-- Category is "Guide"
+### **Where is it located?** 
+| [Link to tfaforms](https://www.tfaforms.com/4774032)
 
-- Tags are "Page Config" and "Guide"
+**Difficulty:** Advanced.
 
-## Page content
+The Data Request Form helps ensure that:
 
-You are free to write your Markdown here.
+- you know what data is available to you
+- you get all the data you need
+- Kasey or the Huizti Solutions team can pull the data efficiently
+-  the Program Support team can manage and prioritize data requests
+
+### **Tips for using the Data Request Form:**
+- Please submit your request at least 2 businesses days before you need to use/distribute data
+
+
+- The form will give you additional options based on your selections – it starts big and narrows down
+
+
+- If your request includes layers of breakdowns, please list the data points in order you’d like them broken down in the “anything else I should know” box at the bottom.
+I.e., “industry by gender” would break down all gender categories within each industry; “gender by industry” would break down all industries within each gender category.
+
+- Year to Date data is available, but data for current month/quarter may not be fully entered or cleaned. When possible, the most recent calendar year or “school year” (July 1 – June 30) will give the best current data set.
+
+- Requests involving certain types of location data – neighborhoods, census tracts, political boundaries, and any self-defined boundaries – require an additional 1-2 business days to complete, because these participants must be mapped in order to refine the data set by the geographic constraints. The form will notify you of this if you select one of these categories.
+If you need or would like a map to accompany your data, please make note in the “anything else I should know” box at the bottom
+
+- If you need any data involving any previous programming, partners, or locations, please make note in the “anything else I should know” box. 
+
+- As we continue to refine and expand evaluation at Mi Casa, the Data Request Form will be expanded and updated
 
 ::: tip
-
-- Please use the relative link `./` for pictures in the Markdown folder.
-
-- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
-
+See below for form use examples – you may need to zoom in to see the form screenshots
 :::
 
-The theme contains a custom badge:
+### **Example Use Case - Business:**
 
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
+I need to know how many female-owned construction businesses we served in 2018-2019, and what their race/ethnicity, age ranges, education levels, total revenue, jobs created, capital accessed, and new business starts are.
 
-## Page structure
+<img :src="$withBase('/assets/dataRequestForm/1.png')" alt="foo">
 
-This page should contain:
+<img :src="$withBase('/assets/dataRequestForm/2.png')" alt="foo">
 
-- Back to top button
-- Route navigation
-- Comments
-- Footer
+### **Example Use Case - Career:**
+I want to know how men’s and women’s starting wages compare in each industry for Financial Services participants since the start of FSTT.
+
+<img :src="$withBase('/assets/dataRequestForm/3.png')" alt="foo">
