@@ -9,10 +9,6 @@ author: Huitzi Solutions
 time: 2020-01-01
 # A page can only have one category
 category: Guide
-# A page can have multiple tags
-tag:
-  - Page config
-  - Guide
 # this page is sticky in article list
 sticky: true
 # this page will appear in aricle channel in home page
