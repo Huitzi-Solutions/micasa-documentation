@@ -6,13 +6,9 @@ title: ...a Course
 # Set author
 author: Huitzi Solutions
 # Set writing time
-time: 2020-01-01
+time: 2017-01-01
 # A page can only have one category
 category: Guide
-# A page can have multiple tags
-tag:
-  - Page config
-  - Guide
 # this page is sticky in article list
 sticky: true
 # this page will appear in aricle channel in home page
@@ -21,20 +17,22 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-##... a Course
+## ... a Course
 **Doc version:** 2017 
 
-**Objective:**  In this section you will find how to create a course. 
+### **Objective:**  
+In this section you will find how to create a course. 
 
-**Where is it located within the Salesforce Org?** |Navigation inside the Org. E.G [Mi Casa App | Accounts] (https://micasa.lightning.force.com/lightning/o/Account/home)
+### **Where is it located within the Salesforce Org?** 
+|Navigation inside the Org. E.G [Mi Casa App | Accounts](https://micasa.lightning.force.com/lightning/o/Account/home)
 
 **Difficulty:** Beginner.
 
-**Steps:**
+### **Steps:**
 
 1. Click on Accounts object tab
 
-**imagenaqui**
+<img :src="$withBase('/assets/howToCreateACourse/1.png')" alt="foo">
 
 2. At top left, click on the Recently Viewed list view. From that drop down list, select the All Programs list view.
 
@@ -42,11 +40,12 @@ footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 3. Click on your Program account.
 
 
-4. From your Program page, click on the Courses record tab. Footnote 3 link[^Third].
+4. From your Program page, click on the Courses record tab. Footnote 3 link [^Third] .
 
-5. [^Third]: Footnote ** You can also access this by clicking on the Related record tab**
+[^Third]: Footnote **You can also access this by clicking on the Related record tab**
 
-6. **imagenaqui**
+6. 
+<img :src="$withBase('/assets/howToCreateACourse/2.png')" alt="foo">
 
 7. At the top right of the Courses tile, click the Add Course button.
 

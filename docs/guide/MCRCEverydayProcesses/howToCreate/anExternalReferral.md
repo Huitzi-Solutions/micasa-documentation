@@ -6,7 +6,7 @@ title: ...an External Referral
 # Set author
 author: Huitzi Solutions
 # Set writing time
-time: 2020-01-01
+time: 2021-11-01
 # A page can only have one category
 category: Guide
 # this page is sticky in article list
@@ -21,21 +21,22 @@ footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 
 **Doc version:** 2021
 
-**Objective:** In this section you will find how to create a referral of a participant to an external partner program/organization.
+### **Objective:**
 
-**Where is it located within the Salesforce Org?** | Navigation inside the Org. [Mi Casa” | App | Contact] (https://micasa--partial.lightning.force.com/lightning/o/Contact/list?filterName=Recent)
+In this section you will find how to create a referral of a participant to an external partner program/organization.
+
+**Where is it located within the Salesforce Org?** | Navigation inside the Org. [Mi Casa” | App | Contact](https://micasa--partial.lightning.force.com/lightning/o/Contact/list?filterName=Recent)
 
 **Difficulty:** Beginner
 
-**Steps:**
+### **Steps:**
 
 1. Navigate to the participant’s Contact record -> Click on the Related tab -> Scroll to the Partnerships tile. Click New.
 
-**ImagenAQUI**
-
+<img :src="$withBase('/assets/anExternalReferral/1.png')" alt="foo">
 
 2. On the New Partnerships pop-up, select External Referral. Click Next.
-The Participant field should auto-fill the Contact. 
+The Participant field should auto-fill the Contact.
 
 Fill in the following fields, if applicable:
 
@@ -50,6 +51,6 @@ d. **Partnership Name:**  “Referral” (this field will automatically update w
 e. **Referral Type:**  select a category; if category is not listed, select Other. In case you select Other, please complete the following:
 Other Referral Type: write in the category if you selected Other above
 
-f. Referral Notes: Any notes or comments about the referral. It is important to keep in mind that these notes are **public** and **everyone** with access to Mi Casa’s Salesforce org will be able to see them.
+f. **Referral Notes:** Any notes or comments about the referral. It is important to keep in mind that these notes are **public** and **everyone** with access to Mi Casa’s Salesforce org will be able to see them.
 
 4. Click Save

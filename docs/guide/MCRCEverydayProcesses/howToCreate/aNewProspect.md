@@ -6,13 +6,9 @@ title: ...a New Prospect
 # Set author
 author: Huitzi Solutions
 # Set writing time
-time: 2020-01-01
+time: 2019-01-01
 # A page can only have one category
 category: Guide
-# A page can have multiple tags
-tag:
-  - Page config
-  - Guide
 # this page is sticky in article list
 sticky: true
 # this page will appear in aricle channel in home page
@@ -25,9 +21,11 @@ footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 
 **Doc version:** 2019
 
-**Objective:**  In this section you will find how to create a new prospect who is interested in participating in one of Mi Casa’s programs.
+### **Objective:**  
+In this section you will find how to create a new prospect who is interested in participating in one of Mi Casa’s programs.
 
-**Where is it located within the Salesforce Org?**| Navigation inside the Org. E.G [Mi Casa” | App | Prospect] (https://micasa--partial.lightning.force.com/lightning/o/Lead/list?filterName=Recent)
+### **Where is it located within the Salesforce Org?**
+| Navigation inside the Org. E.G [Mi Casa” | App | Prospect](https://micasa--partial.lightning.force.com/lightning/o/Lead/list?filterName=Recent)
 
 **Difficulty:** Beginner
 
@@ -46,8 +44,8 @@ When finished, click Submit. You can now find the submitted prospect in the Pros
 1. Within the Prospect tab of Salesforce, click the New button at the top right of your screen. This will prompt you to select a type of Prospect. Then click Next.  Footnote 2 link[^Second].
 [^Second]: Footnote **Note: Depending on your program team, you may just see a selection of these record types**
 
-**imagneaqui**
+<img :src="$withBase('/assets/aNewProspect/1.png')" alt="foo">
 
-2. Enter the prospect information, including all required fields. This includes the Program of Interest field, which should be entered as the program name (Business, Career, ProBoPat, Youth, etc). The fields available will differ by Prospect record type. When done, click Save. (If entering multiple prospects at once, click Save & New).
+1. Enter the prospect information, including all required fields. This includes the Program of Interest field, which should be entered as the program name (Business, Career, ProBoPat, Youth, etc). The fields available will differ by Prospect record type. When done, click Save. (If entering multiple prospects at once, click Save & New).
 
-**imagneaqui**
+<img :src="$withBase('/assets/aNewProspect/2.png')" alt="foo">

@@ -9,10 +9,6 @@ author: Huitzi Solutions
 time: 2020-01-01
 # A page can only have one category
 category: Guide
-# A page can have multiple tags
-tag:
-  - Page config
-  - Guide
 # this page is sticky in article list
 sticky: true
 # this page will appear in aricle channel in home page
@@ -31,7 +27,7 @@ In this section you will find how to send an email in Salesforce.
 
 ### **Where is it located within the Salesforce Org?**
 
-|Navigation inside the Org. E.G [Mi Casa App | Contacts | Maria Jose Tamayo] (<https://micasa.lightning.force.com/lightning/r/Contact/0032M00003AyyzYQAR/view>)
+|Navigation inside the Org. E.G [Mi Casa App | Contacts | Maria Jose Tamayo](<https://micasa.lightning.force.com/lightning/r/Contact/0032M00003AyyzYQAR/view>)
 
 **Difficulty:**  Beginner.
 
@@ -39,7 +35,7 @@ In this section you will find how to send an email in Salesforce.
 
 1. Navigate to the Contact record for the email recipient, then look to the right sidebar to find the Activity feed.
 
-**imagenaqui**
+<img :src="$withBase('/assets/sendAnEmail/1.png')" alt="foo">
 
 2. The Activity feed defaults to Tasks. Click on the Email option in the Activity feed to send an email.
 

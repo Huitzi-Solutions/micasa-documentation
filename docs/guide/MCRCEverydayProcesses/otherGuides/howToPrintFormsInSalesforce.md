@@ -9,10 +9,6 @@ author: Huitzi Solutions
 time: 2020-01-01
 # A page can only have one category
 category: Guide
-# A page can have multiple tags
-tag:
-  - Page config
-  - Guide
 # this page is sticky in article list
 sticky: true
 # this page will appear in aricle channel in home page
@@ -21,39 +17,36 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-## Page information
+## How to print forms in Salesforce
 
-You can set page information in Markdown’s Frontmatter.
+**Doc Version:** 2017
 
-- The author is set to Huitzi Solutions.
+### **Objective:**
 
-- The writing time should be January 1, 2020
+In this section you will find how to print forms in Salesforce (SFDC) in the format of the actual form and not in a table.
 
-- Category is "Guide"
+### **Where is it located within the Salesforce Org?**
 
-- Tags are "Page Config" and "Guide"
+|[Mi Casa” | App | Contact](https://micasa--partial.lightning.force.com/lightning/o/Contact/list?filterName=Recent)
 
-## Page content
+**Difficulty:** Beginner.
 
-You are free to write your Markdown here.
+### **Step**
 
-::: tip
+#### **Printing Welcome Forms:**
 
-- Please use the relative link `./` for pictures in the Markdown folder.
+In the Global Search Bar, enter the participant’s name. Select the Contact that appears in the list
 
-- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
+<img :src="$withBase('/assets/howToPrintForms/1.jpg')" alt="foo">
 
-:::
+- At the top right corner of the participant’s **Contact Record** you will see a button that says “Webmerge”.  Select this button.
 
-The theme contains a custom badge:
+- Once in Webmerge, select “Merge Now”. Ensure that all fields have correctly filled into the form, and hit the “Print” icon at the top right corner of the PDF page.
 
-> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
+#### **Printing Course Applications:**
 
-## Page structure
+In the Global Search Bar, enter the participant’s name. Select the Contact that appears in the list
 
-This page should contain:
+<img :src="$withBase('/assets/howToPrintForms/1.jpg')" alt="foo">
 
-- Back to top button
-- Route navigation
-- Comments
-- Footer
+- Go to **Applications & Enrollments** >>>click on the participant’s appropriate Course Application.
