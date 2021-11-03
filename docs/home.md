@@ -5,24 +5,27 @@ icon: home
 title: Mi Casa's Salesforce Documentation
 heroImage: /logo.svg
 heroText: Salesforce Documentation
-tagline: Find tutorials, developer,admin and user guides.
+tagline: Tutorials and guides for users, admins, and developers.
 action:
   - text: How to Use this guide
-    link: /guide/
+    link: /guide/introduction/howToUseThisGuide
     type: primary
 
 features:
-  - title: 1.0 How to use this guide
-    link: /guide/introduction/
+  - title: How to use this guide
+    link: /guide/introduction/howToUseThisGuide
 
-  - title: 2.0 MCRC Everyday processes
-    link: /guide/MCRCEverydayProcesses/howToSend/aSingleSMS/
+  - title: MCRC Everyday processes
+    link: /guide/MCRCEverydayProcesses/howToCreate/anInternalReferral/
 
-  - title: 3.0 Career Pathway
+  - title: Career Pathway
     link: /guide/careerPathway/CPhowToCreate/careerPathwaysAppointments/
 
-  - title: 4.0 Business Pathway
+  - title: Business Pathway
     link: /guide/introduction/programDictionaryMiCasaResourceCenter/
+
+  - title: Developer Guides
+    link: /guide/developerGuides/introToProcessBuilders/
 
 copyrightText: false
 footer: Copyright © 2021 Mi Casa Resource Center

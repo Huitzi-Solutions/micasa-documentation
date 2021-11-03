@@ -18,12 +18,15 @@ footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
 ## ... a Course
-**Doc version:** 2017 
 
-### **Objective:**  
-In this section you will find how to create a course. 
+**Doc version:** 2017
 
-### **Where is it located within the Salesforce Org?** 
+### **Objective:**
+
+In this section you will find how to create a course.
+
+### **Where is it located within the Salesforce Org?**
+
 |Navigation inside the Org. E.G [Mi Casa App | Accounts](https://micasa.lightning.force.com/lightning/o/Account/home)
 
 **Difficulty:** Beginner.
@@ -36,24 +39,22 @@ In this section you will find how to create a course.
 
 2. At top left, click on the Recently Viewed list view. From that drop down list, select the All Programs list view.
 
+3) Click on your Program account.
 
-3. Click on your Program account.
+4. From your Program page, click on the Courses record tab. Footnote 3 link [^third] .
 
+[^third]: Footnote **You can also access this by clicking on the Related record tab**
 
-4. From your Program page, click on the Courses record tab. Footnote 3 link [^Third] .
+6.
 
-[^Third]: Footnote **You can also access this by clicking on the Related record tab**
-
-6. 
 <img :src="$withBase('/assets/howToCreateACourse/2.png')" alt="foo">
 
 7. At the top right of the Courses tile, click the Add Course button.
 
-
-8. This will bring up the Create Account: Course screen
-  a. Enter the name of the Course in the Account Name field. Please be sure to use standard naming conventions
-  b. In both the Program and Parent Account fields, search your Program Name.
-  c. Select a Type and enter a Description if desired.
-  d. In the Course Details, select your Program from the drop down.
-  e. Enter as much of the Course Details as applicable to your course.
-  f. Click the Save button.
+8) This will bring up the Create Account: Course screen\
+   a. Enter the name of the Course in the Account Name field. Please be sure to use standard naming conventions\
+   b. In both the Program and Parent Account fields, search your Program Name.\
+   c. Select a Type and enter a Description if desired.\
+   d. In the Course Details, select your Program from the drop down.\
+   e. Enter as much of the Course Details as applicable to your course.\
+   f. Click the Save button.
