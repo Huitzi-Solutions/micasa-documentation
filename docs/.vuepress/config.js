@@ -109,7 +109,11 @@ module.exports = config({
               prefix: "developerGuides/",
               collapsable: false,
               children: [
-                  "Mogli Opt-Out Automation | On lead and Contact",
+                {
+                  title: "2.3.1 Process Builders",
+                  collapsable: true,
+                  children: ["introToProcessBuilders", "howToReadSection","mogliOptOutAutomation", "stackableCredentialsStages", "updateOpportunityAccountOnLeadConversion", "scheduledAppointments", "pendingPayments"],
+                }
               ],
             },
           ],
