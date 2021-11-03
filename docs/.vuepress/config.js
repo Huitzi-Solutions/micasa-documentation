@@ -130,22 +130,30 @@ module.exports = config({
 							prefix: 'adminOtherGuides/',
 							collapsable: false,
 							children: [
-								{
-									title: '2.2.1 Other guides',
-									collapsable: true,
-									children: [
-										'createAndConfigureALeadProcess',
-										'howToCreateAndConfigureAnApplicationsAndEnrollmentProcess',
-										'howToCreateAndConfigureAnAppointmentProcess',
-									],
-								},
+								'createAndConfigureALeadProcess',
+								'howToCreateAndConfigureAnApplicationsAndEnrollmentProcess',
+								'howToCreateAndConfigureAnAppointmentProcess',
 							],
 						},
 						{
 							title: '2.3 Developer Guides',
 							prefix: 'developerGuides/',
 							collapsable: false,
-							children: ['Mogli Opt-Out Automation | On lead and Contact'],
+							children: [
+								{
+									title: '2.3.1 Process Builders',
+									collapsable: true,
+									children: [
+										'introToProcessBuilders',
+										'howToReadSection',
+										'mogliOptOutAutomation',
+										'stackableCredentialsStages',
+										'updateOpportunityAccountOnLeadConversion',
+										'scheduledAppointments',
+										'pendingPayments',
+									],
+								},
+							],
 						},
 					],
 				},
