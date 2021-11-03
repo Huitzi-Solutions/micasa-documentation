@@ -202,7 +202,7 @@ module.exports = config({
 				},
 				{
 					title: 'Business Pathway',
-					prefix: 'Business Pathway/',
+					prefix: 'businessPathway/',
 					collapsable: true,
 					children: [
 						{
@@ -215,8 +215,8 @@ module.exports = config({
 									prefix: 'howToCreate/',
 									collapsable: true,
 									children: [
-										'... Business Consulting Appointment | Form 641',
-										'... a Business Counseling Survey',
+										'aBusinessCounselingSurvey',
+										'aBusinessCounselingAppointment',
 									],
 								},
 								{
@@ -224,9 +224,9 @@ module.exports = config({
 									prefix: 'howToEnter/',
 									collapsable: true,
 									children: [
-										'... Business Appointments and 641s',
-										'... a Business Consulting Appointment',
-										'... Pre, Post & Hope Surveys',
+										'aBusinessConsultingAppointment',
+										'businessAppointmentsAnd641',
+										'prePostHopeSurveys',
 									],
 								},
 								{
@@ -234,8 +234,8 @@ module.exports = config({
 									prefix: 'otherGuides/',
 									collapsable: true,
 									children: [
-										'How to search for and request a 641 Form',
-										'How to view a Business Dashboard',
+										'howToSearchForAndRequestA641Form',
+										'howToViewABusinessDashboard',
 									],
 								},
 							],
