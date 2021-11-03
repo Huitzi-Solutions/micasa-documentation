@@ -32,7 +32,7 @@ module.exports = config({
   },
 
   themeConfig: {
-    logo: "/logo.svg",
+    logo: "/logo.png",
     hostname: "https://vuepress-theme-hope-demo.mrhope.site",
 
     author: "Huitzi Solutions",
@@ -219,11 +219,11 @@ module.exports = config({
       display: true,
       content: "2021 Mi Casa Resource Center",
     },
-
-    comment: {
-      type: "waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
-    },
+    // This property adds a comments box at the end of the page. It was disabled for now but we will use it in the future.
+    // comment: {
+    //   type: "waline",
+    //   serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+    // },
 
     copyright: {
       status: "global",
