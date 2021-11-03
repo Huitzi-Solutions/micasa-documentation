@@ -215,8 +215,8 @@ module.exports = config({
 									prefix: 'howToCreate/',
 									collapsable: true,
 									children: [
-										'aBusinessCounselingSurvey',
-										'aBusinessCounselingAppointment',
+										'businessCounselingSurvey',
+										'businessConsultingAppointmentForm641',
 									],
 								},
 								{
@@ -224,8 +224,7 @@ module.exports = config({
 									prefix: 'howToEnter/',
 									collapsable: true,
 									children: [
-										'aBusinessConsultingAppointment',
-										'businessAppointmentsAnd641',
+										'enterBusinessConsultingAppointment',
 										'prePostHopeSurveys',
 									],
 								},

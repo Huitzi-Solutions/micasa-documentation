@@ -2,7 +2,7 @@
 # This is the icon of the page
 icon: page
 # This is the title of the article
-title: ... and update Career Retentions
+title: ...Business Consulting Appointment
 # Set author
 author: Huitzi Solutions
 # Set writing time
@@ -17,104 +17,78 @@ star: true
 footer: Mi Casa Resource Center | Powered By Huitzi Solutions
 ---
 
-**Doc Version**: 2021
+**Doc version:** 2020
 
-### **Objective**:  
-In this section you will find how to create an internal referral of a participant to one of Mi Casa’s programs. 
+**Objective:** In this section you will find how to create a 641 Form and business consulting appointment
 
-### **Where is it located within the Salesforce Org?**  
-[Mi Casa” | App | Contact](https://micasa--partial.lightning.force.com/lightning/o/Contact/list?filterName=Recent)
+**Where is it located within the Salesforce Org?** | Navigation inside the Org. E.G [Mi Casa App | Contacts | Related | Forms](https://micasa.lightning.force.com/lightning/r/Contact/0032M00003AyyzYQAR/view)
 
-**Difficulty**: Beginner
+**Difficulty:** Advanced.
 
-### **Steps:**
-Begin by searching in the global search bar (the Search Salesforce box at the top of your screen) for the participant– either by part of their name or the last 4 digits of their phone number. This ensures you avoid any search issues due to nicknames, misspellings, married/divorced names, double last names, etc. **(image 2.30)**
+**Steps:**
 
-If you do not find the client, go to **Section A Footnote 19 link[^Nineteenth].**
+1. Begin by searching in the global search bar (the Search Salesforce box at the top of your screen) for the participant– either by part of their name or the last 4 digits of their phone number. This ensures you avoid any search issues due to nicknames, misspellings, married/divorced names, double last names, etc.
 
-[^Nineteenth]: Footnote **This section is later in the document**
+<img :src="$withBase('/assets/businessAppointments/businessPathways1.png')" alt="foo">
 
-If you find the client, open their Contact record by clicking on their name in the search results Footnote 20 link[^Twentieth.  **(image 2.31)**
+**Note: If you find two or more Contacts for a client, let the Evaluation Coordinator know so they can merge the records. In the meantime, open both Contact records and continue with whichever Contact has a 641 Form. If neither does, pick one of the Contact records and continue**
 
-[^Twentieth]: Footnote **Note: If you find two or more Contacts for a client, let the Evaluation Coordinator know so they can merge the records. In the meantime, open both Contact records and continue with whichever Contact has a 641 Form. If neither does, pick one of the Contact records and continue**
+<img :src="$withBase('/assets/businessAppointments/businessApt2.png')" alt="foo">
 
-**image 2.31**
+2. Once in their Contact record, check to see if they have a 641 Form by clicking on the Related tab and looking at the Forms tile.
 
-Once in their Contact record, check to see if they have a 641 Form by clicking on the Related tab and looking at the Forms tile.
-If you do not find a 641 Form, go to **Section B Footnote 21 link[^Twenty-first].**
-[^Twenty-first]: Footnote **This section is later in the document**
-If you find a 641 Form, open the Form record by click on the Form name (Form-#####). 
+3. If you find a 641 Form, open the Form record by click on the Form name (Form-#####).
 
-**(image 2.32)**
+<img :src="$withBase('/assets/businessAppointments/businessApt3.png')" alt="foo">
 
-**image 2.32**
+4. Once in the Form record, use the “Click here to add a Part 3 appointment” link to add a new appointment.
 
-Once in the Form record, use the “Click here to add a Part 3 appointment” link to add a new appointment. 
+<img :src="$withBase('/assets/businessAppointments/businessApt4.png')" alt="foo">
 
-**(image 2.33)**
+This link opens a new tab for Form Assembly. The first thing you see will be a confirmation that you are skipping Parts 1 and 2, because they’re already in Salesforce. Click Next Page to go to the rest of the Part 3 form.
 
-**image 2.33**
+<img :src="$withBase('/assets/businessAppointments/businessApt5.png')" alt="foo">
 
-This link opens a new tab for Form Assembly. The first thing you see will be a confirmation that you are skipping Parts 1 and 2, because they’re already in Salesforce. Click Next Page to go to the rest of the Part 3 form. 
+5. On the Part 3 page, any company information that has previously been recorded will auto-fill the corresponding form fields. Revenue/Sales and Profits/Losses will need to be completed, at the bottom. Select the appropriate Course from the list provided.
 
-**(image 2.34)**
+<img :src="$withBase('/assets/businessAppointments/businessApt6.png')" alt="foo">
 
-**image 2.34**
+6. Complete the entirety of the form and click Submit on page 3 when finished.
+   If you’d like to ensure that the appointment was captured, return to the 641 Form record (the tab should still be open), refresh your browser, and notice the newly entered appointment in the Appointments tile.
 
-On the Part 3 page, any company information that has previously been recorded will auto-fill the corresponding form fields. Revenue/Sales and Profits/Losses will need to be completed, at the bottom. Select the appropriate Course from the list provided. 
+<img :src="$withBase('/assets/businessAppointments/businessApt7.png')" alt="foo">
 
-**(image 2.35)**
+7. Since there is no existing Contact record for this client, you’ll need the 641 data entry form to create a Contact while it’s creating the Business Account record (if in business), 641 Form record, and Appointment record.  
+   Click on the Home tab and return to your home screen.
 
-**image 2.35**
+<img :src="$withBase('/assets/businessAppointments/businessApt8.png')" alt="foo">
 
-Complete the entirety of the form and click Submit on page 3 when finished.
-If you’d like to ensure that the appointment was captured, return to the 641 Form record (the tab should still be open), refresh your browser, and notice the newly entered appointment in the Appointments tile. 
+8. In the upper right corner of your home screen is a box labeled Staff Data Entry Forms. In this box, click on the 641 Form link.
 
-**(image 2.36)**
+<img :src="$withBase('/assets/businessAppointments/businessApt9.png')" alt="foo">
 
-**image 2.36**
+9. This link will open a new tab for Form Assembly. Because you’ll be creating new Contact, Business Account, Form, and Appointment records, you’ll need to complete all fields for all 3 parts of the form.
 
+<img :src="$withBase('/assets/businessAppointments/businessApt10.png')" alt="foo">
 
-**Section A**
+10. Fill out the entirety of the form and click Submit on page 3 when finished.
+    If you’d like to ensure that the Contact, Business Account (if applicable), Form, and Appointment were captured, return to your Salesforce home screen – clicking Submit on the 641 data entry form should take you back to your Salesforce home screen. Refresh your browser, and then use the global search bar at the top to find the new Contact record. In the new Contact record, you can find the new Business Account (if applicable), Form, and Appointment records.
 
-Since there is no existing Contact record for this client, you’ll need the 641 data entry form to create a Contact while it’s creating the Business Account record (if in business), 641 Form record, and Appointment record.  
+<img :src="$withBase('/assets/businessAppointments/businessApt11.png')" alt="foo">
 
-**(image 2.37)**
+11. Since there is no existing 641 Form for this client, you’ll need to add one. Return to the Details tab of the Contact record, and use the “Click here to enter a new 641 Form” link to add a 641.
 
-Click on the Home tab and return to your home screen.
+<img :src="$withBase('/assets/businessAppointments/businessApt12.png')" alt="foo">
 
-**image 2.37**
+12. This link will open a new tab for Form Assembly. Any corresponding information that’s already on the Contact record will auto-fill in the form.
 
-In the upper right corner of your home screen is a box labeled Staff Data Entry Forms. In this box, click on the 641 Form link. 
+<img :src="$withBase('/assets/businessAppointments/businessApt13.png')" alt="foo">
 
-**(image 2.38)**
-**image 2.38**
+13. Fill out the entirety of the form and click Submit on page 3 when finished.
+    If you’d like to ensure that the form and appointment were captured, return to the Contact record (the tab should still be open), refresh your browser, click on the Related tab, and notice the newly entered Form record in the Forms tile and Appointment in the Appointments tile.
 
-This link will open a new tab for Form Assembly. Because you’ll be creating new Contact, Business Account, Form, and Appointment records, you’ll need to complete all fields for all 3 parts of the form. 
+<img :src="$withBase('/assets/businessAppointments/businessApt14.png')" alt="foo">
 
-**(image 2.39)**
-**image 2.39**
+This flow diagram can help you visualize the steps to fill in form 641:
 
-Fill out the entirety of the form and click Submit on page 3 when finished.
-If you’d like to ensure that the Contact, Business Account (if applicable), Form, and Appointment were captured, return to your Salesforce home screen – clicking Submit on the 641 data entry form should take you back to your Salesforce home screen. Refresh your browser, and then use the global search bar at the top to find the new Contact record. In the new Contact record, you can find the new Business Account (if applicable), Form, and Appointment records. 
-
-**(image 2.40)**
-
-**image 2.40**
-**Section B**
-
-Since there is no existing 641 Form for this client, you’ll need to add one. Return to the Details tab of the Contact record, and use the “Click here to enter a new 641 Form” link to add a 641 
-
-**(image 2.41)**
-**image 2.41**
-
-This link will open a new tab for Form Assembly. Any corresponding information that’s already on the Contact record will auto-fill in the form. 
-
-**(image 2.42)**
-**image 2.42**
-
-Fill out the entirety of the form and click Submit on page 3 when finished.
-If you’d like to ensure that the form and appointment were captured, return to the Contact record (the tab should still be open), refresh your browser, click on the Related tab, and notice the newly entered Form record in the Forms tile and Appointment in the Appointments tile. 
-
-**(image 2.43)**
-**image 2.43**
+<img :src="$withBase('/assets/businessAppointments/businessApt15.jpeg')" alt="foo">
